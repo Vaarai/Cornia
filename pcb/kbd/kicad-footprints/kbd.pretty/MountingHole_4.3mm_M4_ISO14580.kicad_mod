@@ -77,6 +77,17 @@
 	)
 	(fp_circle
 		(center 0 0)
+		(end 2.15 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "7a85f09b-c21a-4074-bee3-259f366ea80e")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 2.3 0)
 		(stroke
 			(width 0.05)
