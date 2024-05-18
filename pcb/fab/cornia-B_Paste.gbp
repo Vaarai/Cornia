@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.1*
-G04 #@! TF.CreationDate,2024-04-22T22:15:04+02:00*
+G04 #@! TF.CreationDate,2024-05-18T22:20:22+02:00*
 G04 #@! TF.ProjectId,cornia,636f726e-6961-42e6-9b69-6361645f7063,3.0.1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.1) date 2024-04-22 22:15:04*
+G04 Created by KiCad (PCBNEW 8.0.1) date 2024-05-18 22:20:22*
 %MOMM*%
 %LPD*%
 G01*
@@ -214,7 +214,7 @@ X164505038Y-137981990D03*
 X177544076Y-139864123D03*
 D16*
 X183377475Y-145132347D03*
-X195927048Y-149140729D03*
+X195927049Y-149140729D03*
 D17*
 X77149500Y-75130000D03*
 X77149500Y-78430000D03*
