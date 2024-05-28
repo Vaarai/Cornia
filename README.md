@@ -31,4 +31,6 @@ As the Cornia is based on the Corne v3 and only the HW layout is modified for no
 
 ## Photos
 
-TBD !
+![PCB Schematic](./images/SCH.png)
+![PCB Top view](./images/PCB_TOP.png)
+![PCB Bottom view](./images/PCB_BOT.png)
