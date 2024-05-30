@@ -10,8 +10,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -209,6 +208,19 @@
 		(layer "F.CrtYd")
 		(uuid "c2be0e83-a733-48b5-8e87-f2893784b6df")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.125 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "341531b7-8072-4bbb-bdab-0a055b56eac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(pad "1" smd rect
 		(at 2.88 -0.7)
 		(size 1.54 0.825)
@@ -243,7 +255,7 @@
 		(at 4.275 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
 		(uuid "bfecb2be-b67d-45ce-b548-79ae5e1a908f")
@@ -306,7 +318,7 @@
 		(at 5.15 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
 		(uuid "084beec2-a4d3-4fb1-b790-f01eaf49deda")
@@ -315,7 +327,7 @@
 		(at -4.275 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
 		(uuid "6b138bac-736b-4df4-9932-4e2523c771f2")
@@ -354,7 +366,7 @@
 		(at -5.15 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
 		(uuid "6c38d1c5-9701-4811-999d-28a2a00e99e6")
@@ -389,7 +401,7 @@
 	(pad "4" smd roundrect
 		(at -4.075 0.725 180)
 		(size 1.025 0.25)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu")
 		(roundrect_rratio 0.25)
 		(clearance 0.2)
 		(thermal_bridge_angle 45)
@@ -407,15 +419,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "f9932003-46dd-4a4b-b1e3-630f1aba16a9")
 	)
-	(model "/Users/foostan/go/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/ys-sk6812mini-e.step"
+	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/SK6812MINI-E v1.step"
 		(offset
-			(xyz 0 0 0.15)
+			(xyz 0 0 -1.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 180 0 180)
+			(xyz -90 0 180)
 		)
 	)
 )

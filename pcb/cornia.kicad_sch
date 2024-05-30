@@ -5,6 +5,263 @@
 	(uuid "fba9d1ab-287c-4388-b412-675aea5ffe31")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -2396,6 +2653,12 @@
 		(uuid "037f7d73-5fba-470f-b73d-5cda9485503e")
 	)
 	(junction
+		(at 209.55 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab7cc1b-34b2-43b9-ab20-944f98f44e0d")
+	)
+	(junction
 		(at 29.21 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2408,10 +2671,22 @@
 		(uuid "191c3fcf-3936-45d9-b230-a0fe4bc5af5c")
 	)
 	(junction
+		(at 191.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38de8216-abb0-4137-92a9-930fd5e6229a")
+	)
+	(junction
 		(at 40.64 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "470b986e-cf61-4962-ac22-d09008ee0699")
+	)
+	(junction
+		(at 200.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c49d5cd-8d2d-4694-8f50-ddcc2dead122")
 	)
 	(junction
 		(at 40.64 161.29)
@@ -2527,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 180.34 111.76)
+			(xy 148.59 184.15) (xy 148.59 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2677,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 133.35) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fb33e2-0f1b-4f16-ba43-a31625ad9ceb")
+	)
+	(wire
+		(pts
 			(xy 29.21 139.7) (xy 40.64 139.7)
 		)
 		(stroke
@@ -2814,6 +3099,16 @@
 			(type default)
 		)
 		(uuid "280876c5-6107-4f38-876c-0f1f68e23351")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d02921-5053-4ea2-81a4-210e2dc89744")
 	)
 	(wire
 		(pts
@@ -3117,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 111.76) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4669fc32-d404-4ab8-a036-f5b001928f55")
+	)
+	(wire
+		(pts
 			(xy 25.4 43.18) (xy 26.67 43.18)
 		)
 		(stroke
@@ -3294,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "53fd876d-819b-4cc3-8d6d-ad806604f8d2")
+	)
+	(wire
+		(pts
+			(xy 218.44 132.08) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558be8ac-004f-4c61-9fcc-484502c47a42")
 	)
 	(wire
 		(pts
@@ -3557,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 123.19) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6febcaa9-4d2d-48df-a5a6-ea77d2412171")
+	)
+	(wire
+		(pts
 			(xy 58.42 109.22) (xy 69.85 109.22)
 		)
 		(stroke
@@ -3564,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "70ba8b05-d8c4-4d1e-bfb1-aa4dba250be3")
+	)
+	(wire
+		(pts
+			(xy 209.55 123.19) (xy 209.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a5e41f-50c3-4256-993b-1b1a8ee92c2b")
 	)
 	(wire
 		(pts
@@ -3584,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "733facac-3199-4e78-a256-31b0e0464f75")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735d4979-3785-4200-aebe-ce6843f9d09b")
 	)
 	(wire
 		(pts
@@ -4047,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 123.19) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c34186a-09d7-46a8-95c0-716b7474db56")
+	)
+	(wire
+		(pts
 			(xy 114.3 73.66) (xy 115.57 73.66)
 		)
 		(stroke
@@ -4107,6 +4462,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 124.46) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a118212e-3e81-46ba-b142-f3bb37343c85")
+	)
+	(wire
+		(pts
 			(xy 90.17 106.68) (xy 91.44 106.68)
 		)
 		(stroke
@@ -4144,6 +4509,16 @@
 			(type default)
 		)
 		(uuid "a7a20c3d-05af-4007-9638-4399d1960fe0")
+	)
+	(wire
+		(pts
+			(xy 209.55 132.08) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8154f1c-da6e-4cbb-9a21-34f4c36ca7eb")
 	)
 	(wire
 		(pts
@@ -4214,6 +4589,16 @@
 			(type default)
 		)
 		(uuid "b1c2a2e1-778e-4f99-901c-619997fce1a2")
+	)
+	(wire
+		(pts
+			(xy 200.66 123.19) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20ce656-cea6-441b-85f9-975a0bbdc7e1")
 	)
 	(wire
 		(pts
@@ -4314,6 +4699,16 @@
 			(type default)
 		)
 		(uuid "b77b15fb-2701-4081-82ba-2b37f57bf106")
+	)
+	(wire
+		(pts
+			(xy 191.77 123.19) (xy 191.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d978b2-1e6d-4bdc-8ea2-2ea1782560b9")
 	)
 	(wire
 		(pts
@@ -4587,6 +4982,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 123.19) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda5ca6f-da0e-4b8c-ab11-8ba47620dd04")
+	)
+	(wire
+		(pts
 			(xy 146.05 90.17) (xy 144.78 90.17)
 		)
 		(stroke
@@ -4607,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 171.45 111.76)
+			(xy 139.7 184.15) (xy 139.7 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4677,6 +5082,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 132.08) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92873ba-f32c-4885-b005-fa852086a945")
+	)
+	(wire
+		(pts
 			(xy 80.01 128.27) (xy 81.28 128.27)
 		)
 		(stroke
@@ -4734,6 +5149,16 @@
 			(type default)
 		)
 		(uuid "ef69b5b5-ec52-433d-a8a8-cbee3729fdd0")
+	)
+	(wire
+		(pts
+			(xy 191.77 132.08) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe354c4-f6da-44d4-bf3a-e053b91439ad")
 	)
 	(wire
 		(pts
@@ -5062,6 +5487,17 @@
 		)
 		(uuid "5adb67dd-7170-4bc3-b3eb-bb672cf99eb4")
 	)
+	(label "SDA"
+		(at 191.77 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c116332-e1a1-46ca-b9be-1b44076e4273")
+	)
 	(label "In_SW1"
 		(at 238.76 76.2 0)
 		(fields_autoplaced yes)
@@ -5204,6 +5640,17 @@
 			(justify right bottom)
 		)
 		(uuid "83ecd14b-2e5d-49dd-a1a8-1ab118b0be07")
+	)
+	(label "SCL"
+		(at 209.55 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84200b9b-93e3-4250-b1da-fdc9c8474573")
 	)
 	(label "In_SW14"
 		(at 43.18 58.42 90)
@@ -6141,6 +6588,76 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16ea86f7-65da-4ac9-88c6-9a80167691ba")
+		(property "Reference" "R3"
+			(at 203.2 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 203.2 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cornia-footprints:R_0805"
+			(at 198.882 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "057f84c6-71cf-42ee-9595-8f0db0f881a9")
+		)
+		(pin "1"
+			(uuid "5847fbfd-b720-4fa7-a9bf-62d478ba6956")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7459,7 +7976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fbf9874-f591-433a-9893-b608e803bd46")
-		(property "Reference" "JP9"
+		(property "Reference" "SB7"
 			(at 31.75 184.1499 90)
 			(effects
 				(font
@@ -7516,7 +8033,7 @@
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "JP9")
+					(reference "SB7")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8867,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 180.34 107.95 0)
+		(at 148.59 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8359,7 +8876,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cc5acf1-78ed-4efb-8d3b-ba82c454d6f7")
 		(property "Reference" "#FLG02"
-			(at 180.34 106.045 0)
+			(at 148.59 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8885,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 180.34 102.87 0)
+			(at 148.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +8893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 107.95 0)
+			(at 148.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +8902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 107.95 0)
+			(at 148.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +8911,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 180.34 107.95 0)
+			(at 148.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +9030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Bridged"
 			(at 119.38 163.83 0)
 			(effects
 				(font
@@ -8632,7 +9149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f551747-a250-4483-b585-fb0adad2cfbf")
-		(property "Reference" "JP6"
+		(property "Reference" "SB4"
 			(at 31.75 171.4499 90)
 			(effects
 				(font
@@ -8689,7 +9206,7 @@
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "JP6")
+					(reference "SB4")
 					(unit 1)
 				)
 			)
@@ -8830,6 +9347,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 165.1 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ba1c74-d132-4901-a987-8c0509a52554")
+		(property "Reference" "C1"
+			(at 168.91 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 168.91 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cornia-footprints:C_0805"
+			(at 166.0652 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e8ad866-0e52-414a-90c4-e691ad0002c5")
+		)
+		(pin "1"
+			(uuid "c8bef55c-e239-4034-8c72-d74292f44073")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 147.32 128.27 270)
 		(unit 1)
@@ -8891,6 +9478,76 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b24c009-cc7a-4120-a903-7b1141c6c12e")
+		(property "Reference" "R2"
+			(at 212.09 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 212.09 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cornia-footprints:R_0805"
+			(at 207.772 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50c22c92-5c08-42fa-947e-7fe2d42a0fed")
+		)
+		(pin "1"
+			(uuid "c825304e-a001-4339-a9a3-0e269e056947")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9305,7 +9962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 111.76 0)
+		(at 148.59 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9314,7 +9971,7 @@
 		(fields_autoplaced yes)
 		(uuid "74c14d68-b9ac-4b9f-92f7-d11539f7ef99")
 		(property "Reference" "#PWR073"
-			(at 180.34 118.11 0)
+			(at 148.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 116.84 0)
+			(at 148.59 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 111.76 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 111.76 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +10006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 111.76 0)
+			(at 148.59 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,6 +10021,72 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c6f5ba-e117-4df6-9480-89ac5e50610f")
+		(property "Reference" "#PWR075"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f8567e-dee0-4272-adb5-f0c5c4233be3")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -9460,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
 			(at 119.38 168.91 0)
 			(effects
 				(font
@@ -10747,7 +11470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af9c226-98aa-4f50-9f0d-4042dc71a6b7")
-		(property "Reference" "JP8"
+		(property "Reference" "SB6"
 			(at 31.75 157.4799 90)
 			(effects
 				(font
@@ -10804,7 +11527,7 @@
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "JP8")
+					(reference "SB6")
 					(unit 1)
 				)
 			)
@@ -11246,7 +11969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Bridged"
 			(at 119.38 173.99 0)
 			(effects
 				(font
@@ -11566,7 +12289,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 171.45 111.76 180)
+		(at 139.7 187.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11575,7 +12298,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa30431f-77a8-4ed3-b029-742da68a7394")
 		(property "Reference" "#FLG01"
-			(at 171.45 113.665 0)
+			(at 139.7 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +12307,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 116.84 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,7 +12315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 111.76 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +12324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 111.76 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11610,7 +12333,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 111.76 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12312,7 +13035,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 171.45 107.95 0)
+		(at 139.7 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12321,7 +13044,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ac0c57-aeee-43aa-a15d-510cc916e07f")
 		(property "Reference" "#PWR072"
-			(at 171.45 111.76 0)
+			(at 139.7 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,7 +13053,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 171.45 102.87 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +13061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 107.95 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12347,7 +13070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 107.95 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +13079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 171.45 107.95 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,6 +13432,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 165.1 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d047f38d-c148-4360-b407-12e1ec9ce5c8")
+		(property "Reference" "#PWR074"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c660f164-6fa7-44fb-937c-fb30837f33a6")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 31.75 92.71 0)
 		(mirror x)
@@ -12990,6 +13779,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 191.77 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4acedbb-8cec-4837-9a15-8380317661b0")
+		(property "Reference" "R1"
+			(at 194.31 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 194.31 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cornia-footprints:R_0805"
+			(at 189.992 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75342ab8-e8ae-4793-bfd1-e8926bbc08db")
+		)
+		(pin "1"
+			(uuid "12dcaef7-3e82-40c8-aed5-4802887ee1bf")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 160.02 173.99 0)
 		(unit 1)
@@ -13203,7 +14062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c9c8e7-d93c-434c-addf-cb2b922e45dd")
-		(property "Reference" "JP7"
+		(property "Reference" "SB5"
 			(at 31.75 144.7799 90)
 			(effects
 				(font
@@ -13260,7 +14119,7 @@
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "JP7")
+					(reference "SB5")
 					(unit 1)
 				)
 			)
@@ -14017,6 +14876,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed356031-fbee-48b5-a1aa-68eb7f90a619")
+		(property "Reference" "R4"
+			(at 220.98 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 220.98 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cornia-footprints:R_0805"
+			(at 216.662 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69f80585-a35f-4440-8ff6-e367017e1488")
+		)
+		(pin "1"
+			(uuid "9f7ff1c8-e78d-46ed-99cc-1f802fc8ca60")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 38.1 128.27 270)
 		(unit 1)
@@ -14688,6 +15617,72 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 191.77 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3bdb83-de14-40a4-8110-492ddcf91223")
+		(property "Reference" "#PWR076"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5242db75-1906-4fd8-9eba-478de6a3e0cc")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

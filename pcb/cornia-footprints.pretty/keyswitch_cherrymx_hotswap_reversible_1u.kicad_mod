@@ -9,9 +9,8 @@
 		(uuid "14f14c5a-6ef3-4731-9da9-b9924759015b")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -168,46 +167,6 @@
 		(uuid "642efa75-b1e6-49be-85ca-56f523b8ba8e")
 	)
 	(fp_line
-		(start -7 7)
-		(end -7 -7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "f2277429-d6bf-4ce3-899f-12b7e7e69abd")
-	)
-	(fp_line
-		(start 7 -7)
-		(end -7 -7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "d7cf9b46-0d08-496a-aa70-34ad2e152887")
-	)
-	(fp_line
-		(start 7 -7)
-		(end 7 7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "8d0114cf-cb4f-4c34-90e0-0dd5a1a0619b")
-	)
-	(fp_line
-		(start 7 7)
-		(end -7 7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco2.User")
-		(uuid "de60cba6-c6f7-48a9-9bef-70bb4f86b137")
-	)
-	(fp_line
 		(start -7 2.45)
 		(end -7 -7)
 		(stroke
@@ -287,6 +246,59 @@
 		(layer "B.Fab")
 		(uuid "99f66cea-78fe-49b9-ae9d-8c0c8b190010")
 	)
+	(fp_line
+		(start -7 7)
+		(end -7 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "f2277429-d6bf-4ce3-899f-12b7e7e69abd")
+	)
+	(fp_line
+		(start 7 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "d7cf9b46-0d08-496a-aa70-34ad2e152887")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "8d0114cf-cb4f-4c34-90e0-0dd5a1a0619b")
+	)
+	(fp_line
+		(start 7 7)
+		(end -7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "de60cba6-c6f7-48a9-9bef-70bb4f86b137")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.9 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "60e39ae5-7a04-4c9a-a1aa-15dcb98a5b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
 		(size 1.9 1.9)
@@ -349,7 +361,7 @@
 		(at 6.475 -3.8)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 0)
 		(uuid "9ecf6f8a-5f39-4f5b-9ce3-d51f37f9b01e")
@@ -370,7 +382,7 @@
 		(at -6.45 -3.8)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 0)
 		(uuid "b0e8951b-f7d3-40d7-a9ed-ae97570cdbb0")
@@ -384,15 +396,15 @@
 		(chamfer top_left)
 		(uuid "c288c31d-aa7b-4528-ba41-2e1475f105b1")
 	)
-	(model "/Users/foostan/go/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/kailh_hotswap_socket.step"
+	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/Kailh-CherryMX-Socket.step"
 		(offset
-			(xyz 1.3 7.6 1.6)
+			(xyz -1.25 7.6 -3.45)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 180)
+			(xyz 0 0 180)
 		)
 	)
 )
