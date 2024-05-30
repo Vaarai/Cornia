@@ -16,13 +16,13 @@ The Cornia keyboard is a split keyboard featuring :
 |:-|:-|:-|
 | PCB | 2 | |
 | OLED cover | 2 sheets | |
-| RP2040 ProMicro | 2 | Alternative: [Elite-C](https://deskthority.net/wiki/Elite-C) |
+| [RP2040 ProMicro](https://keeb.io/products/rp2040-pro-micro-usb-c-controller) | 2 | Alternative: [Elite-C](https://deskthority.net/wiki/Elite-C) or Aliexpress RP2040 ProMicro |
 | TRRS 3.5mm jack | 2 | |
 | Reset switch | 2 |  |
 | Hotswap sockets | 42 | Compatible with Kailh and Gateron |
 | Key switches | 42 | Only compatible with MX style |
 | Keycaps | 42 pieces | 1u 42 pcs |
-| TRRS (4 poles) cable | 1 | TRS (3 poles) cable is also compatible |
+| TRRS (4 poles) cable | 1 | |
 | USB cable | 1 | USB Micro or USB-C depending on the controller, avoid charge-only cables |
 
 ## Software
@@ -34,3 +34,5 @@ No software available for now but it will be based on QMK.
 ![PCB Schematic](./images/SCH.png)
 ![PCB Top view](./images/PCB_TOP.png)
 ![PCB Bottom view](./images/PCB_BOT.png)
+![3D Top view](./images/3D_TOP.png)
+![3D Bottom view](./images/3D_BOT.png)

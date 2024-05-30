@@ -1,16 +1,18 @@
 ### Export DXF for laser cutted case
 
-Kicad layers `User.8` & `User.9` are respectively used in cornia footprint/pcb to export DXF for a laser cutted case.
-Kicad-CLI can be found at `C:\Program Files\KiCad\8.0\bin`
+PCB layers `User.8` & `User.9` are respectively used in cornia footprint & pcb to export DXF for a laser cutted case using [Kicad-CLI](https://docs.kicad.org/8.0/en/cli/cli.html).
+
+Kicad-CLI executable can be found at `C:\Program Files\KiCad\8.0\bin`.
 
 ``` bash
 mkdir case
 kicad-cli pcb export dxf -o case/LaserCut.TOP.dxf -l User.8 --ou mm cornia.kicad_pcb
 kicad-cli pcb export dxf -o case/LaserCut.BOT.dxf -l User.9 --ou mm cornia.kicad_pcb
 ```
-For more info about kicad-CLI please read the [documentation](https://docs.kicad.org/8.0/en/cli/cli.html)
 
 ### Export Gerber for JLCPCB
+
+Based on [JLCPCB recommendations](https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-8) & [Kicad-CLI](https://docs.kicad.org/8.0/en/cli/cli.html) the following commands allow to export all gerber files (including Drill/Map files).
 
 ``` bash
 mkdir gerber
