@@ -145,8 +145,8 @@
 		(layer "B.Fab")
 		(uuid "05797eb8-9edd-4bbe-9177-9028a8a853b9")
 	)
-	(fp_text user "REF**"
-		(at -0.01 -1.28 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 -1.95 0)
 		(layer "F.SilkS")
 		(uuid "b523e8a6-a00d-4762-b0ef-01b739c6eada")
 		(effects
