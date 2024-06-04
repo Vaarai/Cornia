@@ -5,6 +5,8 @@ https://fr.aliexpress.com/item/1005005980167753.html
 
 https://keeb.io/products/rp2040-pro-micro-usb-c-controller
 
+https://github.com/0xCB-dev/0xCB-Helios
+
 ### Support without OLED screen 
 
 https://docs.keeb.io/elite-pi-guide
