@@ -739,6 +739,24 @@
 				)
 			)
 			(pin input line
+				(at -17.78 -16.51 0)
+				(length 5.08)
+				(name "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "GND"

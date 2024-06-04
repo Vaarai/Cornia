@@ -330,7 +330,7 @@
 		)
 	)
 	(fp_text user "12"
-		(at 12.5 4.5 90)
+		(at 12.85 3.95 45)
 		(layer "B.SilkS")
 		(uuid "3132778d-c68a-48c4-9d49-7785c60752f1")
 		(effects
@@ -366,7 +366,7 @@
 		)
 	)
 	(fp_text user "8"
-		(at 11.4 5.85 90)
+		(at 10.3 6.475 45)
 		(layer "B.SilkS")
 		(uuid "48298fb0-42b8-4afe-af6b-790222d2d43d")
 		(effects
@@ -438,7 +438,7 @@
 		)
 	)
 	(fp_text user "13"
-		(at 12.4 2.54 90)
+		(at 12.4 2.025 90)
 		(layer "B.SilkS")
 		(uuid "5b4d64e2-7dfb-4fa9-8b83-638c4b74b70c")
 		(effects
@@ -581,6 +581,18 @@
 			(justify mirror)
 		)
 	)
+	(fp_text user "25"
+		(at 10.25 3.95 45)
+		(layer "B.SilkS")
+		(uuid "bc24722e-3ee7-4b9a-aef2-1702d00ba55e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "RST"
 		(at -8.91 -5.04 90)
 		(layer "B.SilkS")
@@ -615,6 +627,17 @@
 				(thickness 0.16)
 			)
 			(justify mirror)
+		)
+	)
+	(fp_text user "25"
+		(at 10.25 3.95 45)
+		(layer "F.SilkS")
+		(uuid "0460ff99-4414-4cf5-b139-b15c6bf3cee2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
 		)
 	)
 	(fp_text user "7"
@@ -706,7 +729,7 @@
 		)
 	)
 	(fp_text user "12"
-		(at 12.5 4.5 90)
+		(at 12.85 3.95 45)
 		(layer "F.SilkS")
 		(uuid "55b3a6cd-134e-4b19-8e99-15c3c7309789")
 		(effects
@@ -773,7 +796,7 @@
 		)
 	)
 	(fp_text user "8"
-		(at 11.4 5.85 90)
+		(at 10.3 6.475 45)
 		(layer "F.SilkS")
 		(uuid "66584049-2e4a-4abb-b946-b19f237ad70b")
 		(effects
@@ -828,7 +851,7 @@
 		)
 	)
 	(fp_text user "13"
-		(at 12.4 2.54 90)
+		(at 12.4 2.025 90)
 		(layer "F.SilkS")
 		(uuid "98d9a44c-b2ea-4ac1-968c-2404674cc1dc")
 		(effects
@@ -1206,6 +1229,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c0d79b33-0ea0-4a82-8e53-ad09887be268")
+	)
+	(pad "32" thru_hole circle
+		(at 11.43 5.08)
+		(size 1.7526 1.7526)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a327ceab-388f-4a1a-9c5e-23da4d2bfad7")
 	)
 	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/ProMicro.step"
 		(offset
