@@ -57,7 +57,12 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 
 ### PCB Design
 
-[PCB Design and fabrication output](./doc/pcb.md)
+Schematic and PCB views are available in `pdf/`:
+- [Schematic](pdf/SCH.pdf)
+- [PCB Top view](pdf/PCB_TOP.pdf)
+- [PCB Bottom view](pdf/PCB_BOT.pdf)
+
+#### [PCB Design and fabrication output guide](./doc/pcb.md)
 
 # Software
 
@@ -67,13 +72,9 @@ Software will be available soon (based on QMK).
 
 ![3D Top view](./images/3D_TOP.png)
 ![3D Bottom view](./images/3D_BOT.png)
-![PCB Top view](./images/PCB_TOP.png)
-![PCB Bottom view](./images/PCB_BOT.png)
-![PCB Schematic](./images/SCH.png)
  
 # TODO
   * [Image converter](https://github.com/MakotoKurauchi/helix/tree/master/FontConverter)
   * [QMK](https://github.com/qmk/qmk_firmware/blob/master/docs/platformdev_rp2040.md)
   * [Troubleshooting guide](https://github.com/jpconstantineau/ErgoTravel/blob/master/Troubleshooting_steps.md)
   * [Inspirations](https://github.com/diimdeep/awesome-split-keyboards?tab=readme-ov-file)
-  * Use [Lily58](https://github.com/kata0510/Lily58) way to reverse OLED connection
