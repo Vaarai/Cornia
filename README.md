@@ -39,9 +39,11 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 | [RP2040 ProMicro](https://keeb.io/products/rp2040-pro-micro-usb-c-controller) | 2 | Alternative: Refer to [Compatible controllers](#compatible-controllers) |
 | TRRS 3.5mm jack | 2 | |
 | Reset switch | 2 | SMD 4x4mm |
+| I²C Pull-up resistors | 2 | 0805 form-factor and any value between 2.2kΩ and 4.7kΩ |
+| Handedness Pull-up/down resistor | 1 | 0805 form-factor and any value between 2.2kΩ and 4.7kΩ |
 | Hotswap sockets | 42 | Compatible with Kailh and Gateron |
 | Key switches | 42 | Only compatible with MX style |
-| Keycaps | 42 pieces | 1u 42 pcs |
+| Keycaps | 42 | 1u size |
 | TRRS (4 poles) cable | 1 | |
 | USB cable | 1 | USB Micro or USB-C depending on the controller, avoid charge-only cables |
 
@@ -55,14 +57,16 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 | [Elite-Pi](https://docs.keeb.io/elite-pi-guide) | $${\color{red}⨯}$$ | $${\color{red}⨯}$$ | $${\color{green}✓}$$ |
 | [RP Micro](https://github.com/siderakb/rp-micro) | $${\color{red}⨯}$$ | $${\color{red}⨯}$$ | $${\color{green}✓}$$ |
 
-### PCB Design
+### PCB design and manufacturing
 
 Schematic and PCB views are available in `pdf/`:
 - [Schematic](pdf/SCH.pdf)
 - [PCB Top view](pdf/PCB_TOP.pdf)
 - [PCB Bottom view](pdf/PCB_BOT.pdf)
 
-#### [PCB Design and fabrication output guide](./doc/pcb.md)
+To manufacture the Cornia PCB please follow the [PCB manufacturing guide](./doc/pcb_ordering.md)
+
+In case you modified the PCB you can use the export bash script to ease the process, it is documented in [Manufacturing files export guide](./doc/manufacturing_files_export.md)
 
 # Software
 
