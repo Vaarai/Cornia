@@ -23,9 +23,11 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
   * [Hardware](#hardware)
     * [Bill of material](#bill-of-material)
     * [Compatible controllers](#compatible-controllers)
-    * [PCB Design](#pcb-design)
+    * [PCB Design](#pcb-design-and-manufacturing)
+    * [Troubleshooting](#troubleshooting)
   * [Software](#software)
   * [Photos](#photos)
+  * [ToDo](#todo)
 <!--te-->
 
 # Hardware
@@ -67,6 +69,10 @@ Schematic and PCB views are available in `pdf/`:
 To manufacture the Cornia PCB please follow the [PCB manufacturing guide](./doc/pcb_ordering.md)
 
 In case you modified the PCB you can use the export bash script to ease the process, it is documented in [Manufacturing files export guide](./doc/manufacturing_files_export.md)
+
+### Troubleshooting
+
+[Troubleshooting guide](./doc/troubleshooting_pcb.md)
 
 # Software
 
