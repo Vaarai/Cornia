@@ -281,7 +281,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "43542d1b-8e0e-4bb0-a542-7c51c2334055")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_push_1P1T_NO_CK_KSC6xxJxxx.wrl"
+	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/Ts-1252_4.0.stp"
 		(offset
 			(xyz 0 0 0)
 		)

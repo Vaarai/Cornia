@@ -19,7 +19,7 @@ Test was done with JLCPCB manufacturing but the Cornia can be printed with the P
 
 0. If PCB was modified, please check [Manufacturing files export guide](./manufacturing_files_export.md) 
 1. Create a `.zip` with the content of the [gerber/](../gerber/) folder, no matter the name of the zip but `cornia_Vx.x.zip` with `Vx.x` the version used can help to keep track of your work.  
-2. Go to [jlcpcb.com](jlcpcb.com) and register then login, or just login if you already have an account.
+2. Go to [jlcpcb.com](https://jlcpcb.com/) and register then login, or just login if you already have an account.
 3. Click on [Instant Quote](https://cart.jlcpcb.com/quote).
     <h3 align="center"><img src="../images/jlcpcb_order/instant_quote.png" /></h3>
 

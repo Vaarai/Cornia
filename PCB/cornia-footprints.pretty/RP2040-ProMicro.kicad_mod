@@ -1238,15 +1238,15 @@
 		(remove_unused_layers no)
 		(uuid "a327ceab-388f-4a1a-9c5e-23da4d2bfad7")
 	)
-	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/ProMicro.step"
+	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/RP2040_ProMicro.STEP"
 		(offset
-			(xyz -1.27 0 2.54)
+			(xyz -1.27 0 4.14)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 -90)
+			(xyz -90 180 0)
 		)
 	)
 )
