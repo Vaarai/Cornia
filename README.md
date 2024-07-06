@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="./images/cornia_banner.png" />
+ <img src="./images/Logo/CorniaKey_PurpleBlack.svg" />
 </h1>
 
 # Cornia keyboard
