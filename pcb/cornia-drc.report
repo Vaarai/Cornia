@@ -1,0 +1,96 @@
+** Drc report for cornia.kicad_pcb **
+** Created on 2024-07-08T20:48:27+0200 **
+
+** Found 2 DRC violations **
+[lib_footprint_mismatch]: Footprint 'keyswitch_cherrymx_hotswap_1u' does not match copy in library 'kbd'.
+    Local override; error
+    @(151.2299 mm, 137.9140 mm): Footprint SW19
+[lib_footprint_mismatch]: Footprint 'keyswitch_cherrymx_hotswap_1u' does not match copy in library 'kbd'.
+    Local override; error
+    @(257.2569 mm, 137.9141 mm): Footprint SW40
+
+** Found 0 unconnected pads **
+
+** Found 23 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(176.4535 mm, 126.0245 mm): Footprint Ref**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(58.6004 mm, 145.2729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(114.6825 mm, 53.7800 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(293.7921 mm, 53.7729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(349.7921 mm, 145.2729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(355.3004 mm, 145.2729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(299.3004 mm, 53.7729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(109.1742 mm, 53.7800 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(53.0921 mm, 145.2729 mm): Footprint REF**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(232.0315 mm, 126.0400 mm): Footprint Ref**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(246.4635 mm, 117.5190 mm): Footprint Ref**
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(162.0215 mm, 117.5035 mm): Footprint Ref**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(176.4535 mm, 126.0245 mm): Footprint Ref**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(58.6004 mm, 145.2729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(114.6825 mm, 53.7800 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(293.7921 mm, 53.7729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(349.7921 mm, 145.2729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(355.3004 mm, 145.2729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(299.3004 mm, 53.7729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(109.1742 mm, 53.7800 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(53.0921 mm, 145.2729 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(232.0315 mm, 126.0400 mm): Footprint Ref**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(246.4635 mm, 117.5190 mm): Footprint Ref**
+
+** End of Report **
