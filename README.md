@@ -24,8 +24,10 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
     * [Bill of material](#bill-of-material)
     * [Compatible controllers](#compatible-controllers)
     * [PCB Design](#pcb-design-and-manufacturing)
+    * [Keyboard assembling](#keyboard-assembling)
     * [Troubleshooting](#troubleshooting)
   * [Software](#software)
+    * [Keymap](#keymap)
   * [Photos](#photos)
   * [ToDo](#todo)
 <!--te-->
@@ -36,10 +38,10 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 
 | Name | Count | Remarks |
 |:-|:-|:-|
-| PCB | 2 | |
-| OLED cover | 2 sheets | |
+| PCB | 2 | [PCB Ordering guide](./doc/pcb_ordering.md) |
+| OLED Display | 2 | |
 | [RP2040 ProMicro](https://keeb.io/products/rp2040-pro-micro-usb-c-controller) | 2 | Alternative: Refer to [Compatible controllers](#compatible-controllers) |
-| TRRS 3.5mm jack | 2 | |
+| TRRS 3.5mm jack | 2 | Ref: PJ-320A |
 | Reset switch | 2 | SMD 4x4mm |
 | I²C Pull-up resistors | 2 | 0805 form-factor and any value between 2.2kΩ and 4.7kΩ |
 | Handedness Pull-up/down resistor | 1 | 0805 form-factor and any value between 2.2kΩ and 4.7kΩ |
@@ -48,10 +50,13 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 | Keycaps | 42 | 1u size |
 | TRRS (4 poles) cable | 1 | |
 | USB cable | 1 | USB Micro or USB-C depending on the controller, avoid charge-only cables |
+| Case top | 2 | |
+| Case bottom | 2 | |
+| OLED Cover | 2 | |
 
 ### Compatible controllers
 
-| Reference | I²C OLED Screen | Handedness pin | Other features |
+| Reference | I²C OLED Display | Handedness pin | Other features |
 |:-|:-:|:-:|:-:|
 | [RP2040 Aliexpress](https://fr.aliexpress.com/item/1005005980167753.html) | $${\color{green}✓}$$ | $${\color{green}✓}$$ | $${\color{green}✓}$$ |
 | [RP2040 keeb.io](https://keeb.io/products/rp2040-pro-micro-usb-c-controller) | $${\color{green}✓}$$ | $${\color{green}✓}$$ | $${\color{green}✓}$$ |
@@ -70,6 +75,10 @@ To manufacture the Cornia PCB please follow the [PCB manufacturing guide](./doc/
 
 In case you modified the PCB you can use the export bash script to ease the process, it is documented in [Manufacturing files export guide](./doc/manufacturing_files_export.md)
 
+### Keyboard assembling
+
+To solder and assemble the Cornia keyboard please follow the [Cornia assembly guide](./doc/assembly_guide.md)
+
 ### Troubleshooting
 
 [Troubleshooting guide](./doc/troubleshooting_pcb.md)
@@ -77,6 +86,10 @@ In case you modified the PCB you can use the export bash script to ease the proc
 # Software
 
 Software will be available soon (based on QMK).
+
+### Keymap
+
+[Fire layout for Cornia keyboard](http://www.keyboard-layout-editor.com/#/gists/a40345c92e1f3f326426ef890ebf4d1c)
 
 # Photos
 
