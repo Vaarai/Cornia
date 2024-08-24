@@ -910,6 +910,18 @@
 			)
 		)
 		(symbol "SK6812MINI_1_1"
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -3.81) (xy 3.81 -3.81) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin power_in line
 				(at -5.08 2.54 0)
 				(length 1.1938)
