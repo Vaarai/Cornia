@@ -2212,6 +2212,18 @@
 				)
 			)
 			(symbol "SK6812MINI_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -3.81) (xy 3.81 -3.81) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin power_in line
 					(at -5.08 2.54 0)
 					(length 1.1938)
@@ -5476,7 +5488,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d4429a04-fa00-40eb-8ec8-821bc39f5313")
+		(uuid "d4429a04-fa00-40eb-8ec8-821bc39f5314")
 	)
 	(wire
 		(pts
@@ -5626,7 +5638,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c74cfb-13f5-470b-b24a-5af6a8f30abb")
+		(uuid "e2c74cfb-13f5-470b-b24a-5af6a8f30abc")
 	)
 	(wire
 		(pts
@@ -15649,6 +15661,72 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 198.12 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d576e6e8-0007-44e1-bc87-cb0a7b3e3189")
+		(property "Reference" "#PWR0101"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VI2C"
+			(at 198.374 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dca5daf-addb-4970-b11a-0f9abfb1f77a")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

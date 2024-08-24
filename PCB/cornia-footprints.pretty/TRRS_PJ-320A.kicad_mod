@@ -1,4 +1,4 @@
-(footprint "TRRS"
+(footprint "TRRS_PJ-320A"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "TRRS"
+	(property "Value" "TRRS_PJ-320A"
 		(at 2.125 12.9 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -124,6 +124,16 @@
 		(uuid "acf4d47c-d89e-454f-b86a-aae856cf8071")
 	)
 	(fp_line
+		(start 2.9 4.175)
+		(end 2.9 5.425)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a11f7c95-8ae7-4021-bd8b-47c9e14655c6")
+	)
+	(fp_line
 		(start 2.9 7.175)
 		(end 2.9 9.425)
 		(stroke
@@ -184,14 +194,74 @@
 		(uuid "9754eeba-1317-4149-8f53-8dbfd752591f")
 	)
 	(fp_line
-		(start 2.9 4.175)
-		(end 2.9 5.425)
+		(start 1.3 2.425)
+		(end 1.3 0.15)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a11f7c95-8ae7-4021-bd8b-47c9e14655c6")
+		(uuid "e3865b03-5163-45c1-bb8e-43792f1f83c8")
+	)
+	(fp_line
+		(start 1.3 5.425)
+		(end 1.3 4.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27b9aeb2-7b63-430a-a686-20f68ecd1ebf")
+	)
+	(fp_line
+		(start 1.3 9.425)
+		(end 1.3 7.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80af64f0-9168-48b7-95e6-f0925aa9e481")
+	)
+	(fp_line
+		(start 1.3 11.9)
+		(end 1.3 11.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2102492f-2a72-48fa-8eb8-af87a5c02c7a")
+	)
+	(fp_line
+		(start 2.9 2.425)
+		(end 2.9 0.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2fef2a2-a7b1-4493-9755-ecf1afbdc6d3")
+	)
+	(fp_line
+		(start 2.9 5.425)
+		(end 2.9 4.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d140a85-a9ea-40fe-85ba-2b678f50a807")
+	)
+	(fp_line
+		(start 2.9 9.425)
+		(end 2.9 7.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81ec28c2-0346-4e11-b678-8753d88a2eb1")
 	)
 	(fp_line
 		(start 2.9 11.9)
@@ -202,6 +272,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bca8e4f4-8a8f-40c9-a344-a849759e2c39")
+	)
+	(fp_line
+		(start 2.9 11.9)
+		(end 2.9 11.175)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ac71691-f043-4754-9a90-19959c26feec")
 	)
 	(fp_text user "TRRS"
 		(at 4.95 6.45 0)
