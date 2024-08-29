@@ -910,10 +910,10 @@
 			)
 		)
 		(symbol "SK6812MINI_1_1"
-			(pin output line
+			(pin power_in line
 				(at -5.08 2.54 0)
 				(length 1.1938)
-				(name "DOUT"
+				(name "VDD"
 					(effects
 						(font
 							(size 0.7112 0.7112)
@@ -928,10 +928,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at -5.08 -2.54 0)
 				(length 1.1938)
-				(name "VSS"
+				(name "DOUT"
 					(effects
 						(font
 							(size 0.7112 0.7112)
@@ -946,10 +946,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 5.08 -2.54 180)
 				(length 1.1938)
-				(name "DIN"
+				(name "VSS"
 					(effects
 						(font
 							(size 0.7112 0.7112)
@@ -964,10 +964,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 5.08 2.54 180)
 				(length 1.1938)
-				(name "VDD"
+				(name "DIN"
 					(effects
 						(font
 							(size 0.7112 0.7112)

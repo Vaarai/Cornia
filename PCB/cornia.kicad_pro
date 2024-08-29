@@ -621,5 +621,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "cornia_version": "v1.0"
+  }
 }
