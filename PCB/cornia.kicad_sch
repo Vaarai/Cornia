@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "fba9d1ab-287c-4388-b412-675aea5ffe31")
 	(paper "A4")
+	(title_block
+		(title "Cornia")
+		(rev "${cornia_version}")
+		(comment 1 "Vaarai")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
@@ -745,6 +750,251 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1962,10 +2212,10 @@
 				)
 			)
 			(symbol "SK6812MINI_1_1"
-				(pin output line
+				(pin power_in line
 					(at -5.08 2.54 0)
 					(length 1.1938)
-					(name "DOUT"
+					(name "VDD"
 						(effects
 							(font
 								(size 0.7112 0.7112)
@@ -1980,10 +2230,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -5.08 -2.54 0)
 					(length 1.1938)
-					(name "VSS"
+					(name "DOUT"
 						(effects
 							(font
 								(size 0.7112 0.7112)
@@ -1998,10 +2248,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 5.08 -2.54 180)
 					(length 1.1938)
-					(name "DIN"
+					(name "VSS"
 						(effects
 							(font
 								(size 0.7112 0.7112)
@@ -2016,10 +2266,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 5.08 2.54 180)
 					(length 1.1938)
-					(name "VDD"
+					(name "DIN"
 						(effects
 							(font
 								(size 0.7112 0.7112)
@@ -2521,7 +2771,7 @@
 		)
 	)
 	(junction
-		(at 168.91 100.33)
+		(at 165.1 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "037f7d73-5fba-470f-b73d-5cda9485503e")
@@ -2551,7 +2801,7 @@
 		(uuid "0e3096d2-aa7b-4b31-92f0-a1455996cb1d")
 	)
 	(junction
-		(at 153.67 100.33)
+		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "191c3fcf-3936-45d9-b230-a0fe4bc5af5c")
@@ -2593,6 +2843,12 @@
 		(uuid "6c49d5cd-8d2d-4694-8f50-ddcc2dead122")
 	)
 	(junction
+		(at 194.31 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb55246-5094-4098-ae0e-e40700eb2872")
+	)
+	(junction
 		(at 232.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2611,24 +2867,26 @@
 		(uuid "d5e5861e-d1aa-4401-b2b4-792ee279fc6a")
 	)
 	(junction
+		(at 194.31 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebfc1eed-d50c-42d3-8e30-ea9f9fe2d15e")
+	)
+	(junction
 		(at 167.64 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8ae76cb-64bd-4e42-9ffc-315522a764b3")
 	)
-	(no_connect
-		(at 262.89 115.57)
-		(uuid "4e521cfd-7406-4c9f-855b-05bc4c3a8689")
-	)
 	(wire
 		(pts
-			(xy 132.08 173.99) (xy 132.08 176.53)
+			(xy 87.63 154.94) (xy 87.63 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00d46fa3-48c0-4e2c-b107-999789e14175")
+		(uuid "00f5c2b3-f154-42dc-a2de-98fa140c69cb")
 	)
 	(wire
 		(pts
@@ -2652,26 +2910,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 140.97) (xy 67.31 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026b6bf6-9f02-43e3-bdf5-75a3c732f0b6")
-	)
-	(wire
-		(pts
-			(xy 21.59 154.94) (xy 24.13 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ff51e4-fff3-4edc-8352-70bfee15c0db")
-	)
-	(wire
-		(pts
 			(xy 40.64 91.44) (xy 41.91 91.44)
 		)
 		(stroke
@@ -2692,23 +2930,43 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 160.02) (xy 100.33 160.02)
+			(xy 109.22 171.45) (xy 110.49 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "043e3ce1-4fd8-4f56-8c73-8039962e3350")
+		(uuid "03d3ccca-2760-40ec-874b-94fb64e8b349")
 	)
 	(wire
 		(pts
-			(xy 44.45 138.43) (xy 45.72 138.43)
+			(xy 152.4 193.04) (xy 153.67 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "069fce35-25a4-4978-a0c7-b17687b6f0ec")
+		(uuid "04cc4769-2d0e-4d53-ac11-ba9a0f6d0a59")
+	)
+	(wire
+		(pts
+			(xy 130.81 187.96) (xy 132.08 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0522f23a-6d5f-4c7e-b180-c09caf2a7a46")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 67.31 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e79126-783d-4ab9-8e5e-5562e366d193")
 	)
 	(wire
 		(pts
@@ -2722,13 +2980,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 99.06 157.48)
+			(xy 121.92 176.53) (xy 120.65 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0934ff0f-1ae4-4455-9d7d-365bdc864777")
+		(uuid "0a12a05d-ebbc-465b-ad7c-1457c6b2533c")
+	)
+	(wire
+		(pts
+			(xy 57.15 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a46ec2c-1a26-4f85-8049-0f7d345df604")
 	)
 	(wire
 		(pts
@@ -2742,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 176.53) (xy 77.47 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9c20de-831b-4df0-b6d7-10005f1655d3")
+	)
+	(wire
+		(pts
 			(xy 105.41 76.2) (xy 106.68 76.2)
 		)
 		(stroke
@@ -2749,6 +3027,36 @@
 			(type default)
 		)
 		(uuid "0c9e0407-1efc-4f52-8a56-222d1d98ffd9")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd05809-8154-4d09-810b-c6c75ddd4c15")
+	)
+	(wire
+		(pts
+			(xy 130.81 176.53) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea3d729-c4ee-4c94-8995-426717bc4dab")
+	)
+	(wire
+		(pts
+			(xy 143.51 190.5) (xy 143.51 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f26fa7b-a68f-430a-8ce8-d9e87153cc7a")
 	)
 	(wire
 		(pts
@@ -2762,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 173.99) (xy 121.92 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f80bf02-4f8c-4deb-b1b1-3ceededd40f1")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -2772,13 +3090,33 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 147.32) (xy 22.86 160.02)
+			(xy 87.63 171.45) (xy 87.63 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10e1b52d-c2f5-494d-8c89-52144c0cf8ea")
+		(uuid "10c89172-b33e-41d1-a3c8-13f5e7eaf49f")
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1110da74-a6ba-4612-88e2-8ad4a844015c")
+	)
+	(wire
+		(pts
+			(xy 143.51 147.32) (xy 143.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114f881e-c6a1-46b9-90a4-8f25bfc91328")
 	)
 	(wire
 		(pts
@@ -2789,16 +3127,6 @@
 			(type default)
 		)
 		(uuid "1246beb1-d99e-44da-b851-2b2a9f6e2a60")
-	)
-	(wire
-		(pts
-			(xy 142.24 190.5) (xy 153.67 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129a6c26-7b71-495e-b986-077dd9633960")
 	)
 	(wire
 		(pts
@@ -2822,6 +3150,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 160.02) (xy 45.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b3bb3e-ef67-4df8-ae29-403c530cecd2")
+	)
+	(wire
+		(pts
+			(xy 130.81 157.48) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175bdbeb-3c84-4cd0-82dd-1d6e29b2ee2c")
+	)
+	(wire
+		(pts
 			(xy 246.38 71.12) (xy 246.38 72.39)
 		)
 		(stroke
@@ -2829,16 +3177,6 @@
 			(type default)
 		)
 		(uuid "181cc3da-a91a-4a93-af44-ef354ed18741")
-	)
-	(wire
-		(pts
-			(xy 88.9 140.97) (xy 88.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e9d663-ad22-4a17-8e24-026bf2c4e045")
 	)
 	(wire
 		(pts
@@ -2862,13 +3200,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 143.51) (xy 78.74 143.51)
+			(xy 57.15 173.99) (xy 57.15 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b91fb81-2c78-4cd5-8ce3-d5e4c5d584af")
+		(uuid "1aa0798d-8a5e-4c7b-8e12-481381da7ab7")
 	)
 	(wire
 		(pts
@@ -2882,13 +3220,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 154.94) (xy 143.51 163.83)
+			(xy 22.86 154.94) (xy 22.86 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d2217fa-ae3d-4154-bb6a-4baabf299075")
+		(uuid "1c9edf7c-22e3-4d07-bf3d-52c05852d29b")
+	)
+	(wire
+		(pts
+			(xy 87.63 173.99) (xy 78.74 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4b364a-2b57-4a30-9a9c-7ff7adfd48ab")
 	)
 	(wire
 		(pts
@@ -2899,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "1d6554e6-b5e0-46ae-a236-e7ef85054f73")
+	)
+	(wire
+		(pts
+			(xy 121.92 160.02) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db7a523-c3a9-4258-8be8-a19b85acdc68")
 	)
 	(wire
 		(pts
@@ -2922,13 +3280,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 190.5) (xy 132.08 193.04)
+			(xy 44.45 176.53) (xy 45.72 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22d95798-0638-4350-8795-a36ea107ebf6")
+		(uuid "2119cd77-dca4-4ccd-abc6-a5e289f82252")
 	)
 	(wire
 		(pts
@@ -2942,37 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 171.45) (xy 110.49 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2499e55a-8035-4c66-a1ed-1c2eb070845f")
-	)
-	(wire
-		(pts
-			(xy 77.47 157.48) (xy 88.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "260328e7-65e1-46bf-81d9-a9778c7207df")
-	)
-	(wire
-		(pts
-			(xy 34.29 173.99) (xy 45.72 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ad8f19-170a-49a8-a53c-4fed71251d79")
-	)
-	(wire
-		(pts
-			(xy 153.67 100.33) (xy 153.67 106.68)
+			(xy 149.86 100.33) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3042,33 +3370,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 157.48) (xy 110.49 157.48)
+			(xy 66.04 176.53) (xy 67.31 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b5710ca-e5f7-49f9-ad36-c0d7db37f07e")
-	)
-	(wire
-		(pts
-			(xy 143.51 138.43) (xy 143.51 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bc41fc0-ee80-4163-8cc0-6c468dda6084")
-	)
-	(wire
-		(pts
-			(xy 120.65 187.96) (xy 120.65 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce5124b-3175-4d59-b351-9318397d1490")
+		(uuid "2ca0db25-6e88-491a-8e20-855bd4a1cd20")
 	)
 	(wire
 		(pts
@@ -3082,13 +3390,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 176.53) (xy 100.33 176.53)
+			(xy 143.51 163.83) (xy 143.51 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fdfd45e-ec10-4a19-908b-4a5bcab1ec91")
+		(uuid "2f99191f-8a7c-44d7-b88e-4894818d8758")
+	)
+	(wire
+		(pts
+			(xy 66.04 140.97) (xy 57.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30abcdd4-4d25-41a5-8f1a-68b2870809be")
+	)
+	(wire
+		(pts
+			(xy 152.4 187.96) (xy 153.67 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3146763e-19ec-48bd-8321-db50e2ac98c3")
 	)
 	(wire
 		(pts
@@ -3112,16 +3440,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 140.97) (xy 45.72 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c89084-6946-4c55-9efd-a8709244493e")
-	)
-	(wire
-		(pts
 			(xy 165.1 30.48) (xy 173.99 30.48)
 		)
 		(stroke
@@ -3129,16 +3447,6 @@
 			(type default)
 		)
 		(uuid "32ca4b52-db89-4656-8dbf-44e44c9bfb33")
-	)
-	(wire
-		(pts
-			(xy 87.63 138.43) (xy 88.9 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330b8b6f-6122-47b2-9258-a26a62b84838")
 	)
 	(wire
 		(pts
@@ -3162,16 +3470,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 138.43) (xy 55.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3657e2eb-7b7a-4d39-b359-31640c20eb93")
-	)
-	(wire
-		(pts
 			(xy 93.98 106.68) (xy 95.25 106.68)
 		)
 		(stroke
@@ -3179,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "36ae5f27-5e49-4d18-806a-b2c35cc0de71")
-	)
-	(wire
-		(pts
-			(xy 55.88 143.51) (xy 57.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a167d7-402c-482e-a24d-c08683990089")
 	)
 	(wire
 		(pts
@@ -3222,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 143.51) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390070cb-030d-4ec3-94b1-fe41f6f3f8e3")
+	)
+	(wire
+		(pts
 			(xy 69.85 91.44) (xy 71.12 91.44)
 		)
 		(stroke
@@ -3229,16 +3527,6 @@
 			(type default)
 		)
 		(uuid "39ab9982-2ea4-419b-b582-10f94b6450a0")
-	)
-	(wire
-		(pts
-			(xy 109.22 154.94) (xy 110.49 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a0f194d-12e3-42d2-8ebd-c9f27d29fd23")
 	)
 	(wire
 		(pts
@@ -3252,23 +3540,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 176.53) (xy 57.15 176.53)
+			(xy 66.04 143.51) (xy 67.31 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3be99e0f-3ccf-41de-8af6-449c194a1b46")
-	)
-	(wire
-		(pts
-			(xy 34.29 143.51) (xy 35.56 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc670de-6289-4c18-b8e2-d68c344eb649")
+		(uuid "3bdce447-72d6-4ef8-b22e-2b5b3685a42d")
 	)
 	(wire
 		(pts
@@ -3282,16 +3560,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 143.51) (xy 144.78 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e854643-54da-4ac7-91ee-821c59a21501")
-	)
-	(wire
-		(pts
 			(xy 105.41 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -3299,6 +3567,16 @@
 			(type default)
 		)
 		(uuid "3ede8edb-bf0f-4a09-8010-0b0770ee1944")
+	)
+	(wire
+		(pts
+			(xy 194.31 62.23) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7e7d33-186b-405f-affb-6d4fe3d3ebe8")
 	)
 	(wire
 		(pts
@@ -3312,23 +3590,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 138.43) (xy 120.65 140.97)
+			(xy 121.92 190.5) (xy 121.92 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40fd8002-4402-4565-a73f-ee39bf8ca407")
-	)
-	(wire
-		(pts
-			(xy 77.47 160.02) (xy 78.74 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "412379cd-c62d-4292-9334-dc1c64c6222d")
+		(uuid "40438249-4302-4aed-8142-2a31441140bb")
 	)
 	(wire
 		(pts
@@ -3342,23 +3610,53 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 171.45) (xy 34.29 173.99)
+			(xy 163.83 187.96) (xy 166.37 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "426774a1-eca7-4032-871a-7b20da454f27")
+		(uuid "42ab846b-c2a2-4272-8ed4-a2cbe2abd6fe")
 	)
 	(wire
 		(pts
-			(xy 120.65 173.99) (xy 132.08 173.99)
+			(xy 109.22 154.94) (xy 110.49 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "444aa43c-b2f6-4e5d-803b-39fe18ff111e")
+		(uuid "4468fa92-5999-45d5-9874-825fbd9f94b6")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 66.04 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ed9ab8-1fed-4047-a450-22fa684e71c9")
+	)
+	(wire
+		(pts
+			(xy 163.83 193.04) (xy 166.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455a5a72-6c29-49e8-bfc5-0f54976e774f")
+	)
+	(wire
+		(pts
+			(xy 130.81 143.51) (xy 132.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ce6af8-22f0-416a-a312-6259af20a04f")
 	)
 	(wire
 		(pts
@@ -3372,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 154.94) (xy 132.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4670e313-93e2-410a-9fd1-3c5b55ec7c89")
+	)
+	(wire
+		(pts
 			(xy 22.86 91.44) (xy 24.13 91.44)
 		)
 		(stroke
@@ -3379,16 +3687,6 @@
 			(type default)
 		)
 		(uuid "46848471-a484-4307-a82b-78dce9e74446")
-	)
-	(wire
-		(pts
-			(xy 120.65 171.45) (xy 120.65 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46ea2963-c0d6-4c0c-9505-05dce57c7b9d")
 	)
 	(wire
 		(pts
@@ -3412,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 180.34) (xy 143.51 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e9f150-2ca1-4da3-9580-638633991bd9")
-	)
-	(wire
-		(pts
 			(xy 152.4 41.91) (xy 152.4 50.8)
 		)
 		(stroke
@@ -3432,33 +3720,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 173.99) (xy 110.49 176.53)
+			(xy 130.81 138.43) (xy 130.81 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ac53023-2135-45e7-89e5-94c71208073d")
+		(uuid "494c52c1-087a-48b2-8e02-0ee7539be2c3")
 	)
 	(wire
 		(pts
-			(xy 120.65 157.48) (xy 132.08 157.48)
+			(xy 35.56 140.97) (xy 35.56 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c986da6-496e-4432-a2eb-612fd98d8a68")
-	)
-	(wire
-		(pts
-			(xy 34.29 157.48) (xy 45.72 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9a8b74-00ff-4298-8020-6310e3b9c37a")
+		(uuid "4d89d8b0-238b-4cdd-94ef-a664bb213a0d")
 	)
 	(wire
 		(pts
@@ -3472,23 +3750,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 140.97) (xy 110.49 140.97)
+			(xy 130.81 140.97) (xy 121.92 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "514576cb-3261-4072-9eac-ba3476809a71")
+		(uuid "4dc41826-f260-470e-9dd8-46f53163df4a")
 	)
 	(wire
 		(pts
-			(xy 143.51 171.45) (xy 142.24 171.45)
+			(xy 130.81 138.43) (xy 132.08 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5157b740-e838-4a76-bfae-bea8ea09703f")
+		(uuid "5158292f-e2fa-439c-a602-25c9a49d088e")
 	)
 	(wire
 		(pts
@@ -3499,56 +3777,6 @@
 			(type default)
 		)
 		(uuid "51b37a95-c831-4b59-bde4-a200c6c8f37f")
-	)
-	(wire
-		(pts
-			(xy 142.24 176.53) (xy 144.78 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51bbef8e-2c0e-45a6-8952-91abe96d6648")
-	)
-	(wire
-		(pts
-			(xy 110.49 140.97) (xy 110.49 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53071eeb-980d-4fe2-9f0c-fb93c7c78bd8")
-	)
-	(wire
-		(pts
-			(xy 66.04 171.45) (xy 67.31 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534a724a-3333-49a1-be4e-1f66bef7a11f")
-	)
-	(wire
-		(pts
-			(xy 34.29 154.94) (xy 34.29 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5357bdb3-fbde-4d42-b964-ccd8d42e2a9b")
-	)
-	(wire
-		(pts
-			(xy 77.47 171.45) (xy 77.47 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5361c6e7-8f76-479c-9e0a-ab978b539b39")
 	)
 	(wire
 		(pts
@@ -3582,33 +3810,33 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 157.48) (xy 45.72 160.02)
+			(xy 109.22 154.94) (xy 109.22 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "592b14d4-0ad8-4b21-9d92-a683993914a5")
+		(uuid "593a5c14-c74f-4842-b34b-75cfd81f64ed")
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 77.47 157.48)
+			(xy 130.81 190.5) (xy 121.92 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59660f5c-869f-4beb-bcae-9fbd572f67f4")
+		(uuid "59757845-dc21-48c6-a58f-b04b72e7f6f2")
 	)
 	(wire
 		(pts
-			(xy 130.81 187.96) (xy 132.08 187.96)
+			(xy 109.22 160.02) (xy 110.49 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59966a45-421a-4e1e-b73c-ba4621cfa76d")
+		(uuid "5a9aa6d2-cb17-40dc-b9f7-02a0ddeaaa59")
 	)
 	(wire
 		(pts
@@ -3632,13 +3860,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 193.04) (xy 109.22 180.34)
+			(xy 87.63 171.45) (xy 88.9 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bb59549-bd0b-4ba3-a990-54e240714dac")
+		(uuid "5b1796c0-a400-44ff-9c5d-f703b540f93b")
 	)
 	(wire
 		(pts
@@ -3652,13 +3880,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 163.83) (xy 22.86 176.53)
+			(xy 205.74 73.66) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cf0e3dc-7545-4cf3-8bf9-a423a94276c1")
+		(uuid "5d06938d-fc06-416d-9b92-fbc68ec2b9d9")
+	)
+	(wire
+		(pts
+			(xy 66.04 138.43) (xy 66.04 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d343836-baf0-4fc5-a714-36cf540dcf34")
 	)
 	(wire
 		(pts
@@ -3669,16 +3907,6 @@
 			(type default)
 		)
 		(uuid "5d651522-151c-471f-a69b-b1cfc001699d")
-	)
-	(wire
-		(pts
-			(xy 20.32 143.51) (xy 24.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d9b38f8-fc00-4237-9989-bfc25d7ff73e")
 	)
 	(wire
 		(pts
@@ -3702,6 +3930,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 176.53) (xy 143.51 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6e90d5-f666-4110-b604-3416ae6d2662")
+	)
+	(wire
+		(pts
 			(xy 242.57 73.66) (xy 241.3 73.66)
 		)
 		(stroke
@@ -3712,13 +3950,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 154.94) (xy 67.31 154.94)
+			(xy 78.74 154.94) (xy 77.47 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62674db3-65e0-4f8e-9284-9e27c0c293bf")
+		(uuid "5fd14d99-5dca-4b30-aada-4e9dafe70685")
+	)
+	(wire
+		(pts
+			(xy 143.51 193.04) (xy 142.24 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c55d7b-c908-4e10-be2e-3c6937514daa")
 	)
 	(wire
 		(pts
@@ -3742,6 +3990,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 62.23) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6480d867-ed31-46ff-971d-6fac5abe6008")
+	)
+	(wire
+		(pts
 			(xy 147.32 34.29) (xy 154.94 34.29)
 		)
 		(stroke
@@ -3752,13 +4010,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 173.99) (xy 67.31 176.53)
+			(xy 100.33 138.43) (xy 99.06 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "651cfaf8-9a87-46dd-a705-41eb9964dc44")
+		(uuid "651494bf-885c-4cb8-a10b-7de16cc097ed")
+	)
+	(wire
+		(pts
+			(xy 152.4 190.5) (xy 143.51 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f3e39d-b74a-4f45-adc8-cef20a86fe78")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662412d1-20ec-461b-b198-8676a536d336")
 	)
 	(wire
 		(pts
@@ -3769,6 +4047,16 @@
 			(type default)
 		)
 		(uuid "66c101f9-c883-4cf4-82ae-8d10f558e538")
+	)
+	(wire
+		(pts
+			(xy 35.56 160.02) (xy 34.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682c6295-9e80-4502-bbff-c7d3bd776bae")
 	)
 	(wire
 		(pts
@@ -3822,33 +4110,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 154.94) (xy 55.88 157.48)
+			(xy 66.04 157.48) (xy 57.15 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6baa6d62-7cf0-4967-afb0-ab1aa41735c7")
+		(uuid "6d407a04-a179-477e-8e14-09d6e274aba6")
 	)
 	(wire
 		(pts
-			(xy 77.47 138.43) (xy 77.47 140.97)
+			(xy 57.15 140.97) (xy 57.15 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d3ab06f-06ce-477d-8333-64b112d52c92")
-	)
-	(wire
-		(pts
-			(xy 120.65 193.04) (xy 121.92 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f73efc0-c554-4e07-ab22-e4b894f36664")
+		(uuid "6de3ccae-5da7-4d01-aa3c-2e6807851fba")
 	)
 	(wire
 		(pts
@@ -3862,13 +4140,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 67.31 157.48)
+			(xy 130.81 171.45) (xy 132.08 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ba8b05-d8c4-4d1e-bfb1-aa4dba250be3")
+		(uuid "7110ad7d-1d91-4727-85d9-a78f42233b47")
+	)
+	(wire
+		(pts
+			(xy 121.92 154.94) (xy 120.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72954a7a-2791-4212-ac35-8650882e4f16")
 	)
 	(wire
 		(pts
@@ -3892,16 +4180,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 132.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733facac-3199-4e78-a256-31b0e0464f75")
-	)
-	(wire
-		(pts
 			(xy 170.18 144.78) (xy 170.18 146.05)
 		)
 		(stroke
@@ -3912,13 +4190,43 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 160.02) (xy 121.92 160.02)
+			(xy 44.45 138.43) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7368f982-50a6-4892-bd38-6c2aa304eb1e")
+		(uuid "7473b197-3ff4-453a-a99e-a6237563c6f2")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7588812d-2ac2-4c39-84e4-a7aff440757a")
+	)
+	(wire
+		(pts
+			(xy 35.56 154.94) (xy 34.29 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76238b65-b14f-460f-8206-ef6cf319270b")
+	)
+	(wire
+		(pts
+			(xy 22.86 138.43) (xy 24.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762f8a4e-5cf2-4c61-9c93-8912eafa2a75")
 	)
 	(wire
 		(pts
@@ -3942,13 +4250,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 157.48) (xy 110.49 160.02)
+			(xy 143.51 138.43) (xy 142.24 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77dde3ff-5d28-4fc8-ae46-1fd6c5f12fee")
+		(uuid "77a4c716-de37-4bd6-b441-1bc7674b4dce")
 	)
 	(wire
 		(pts
@@ -3962,16 +4270,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 171.45) (xy 24.13 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78bd29ad-955f-427b-83de-d26416106f60")
-	)
-	(wire
-		(pts
 			(xy 223.52 105.41) (xy 227.33 105.41)
 		)
 		(stroke
@@ -3982,13 +4280,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 171.45) (xy 132.08 171.45)
+			(xy 100.33 176.53) (xy 99.06 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "792d229d-757e-43ff-b0ff-7d4a9802676b")
+		(uuid "78f1e17d-df93-4417-b100-092c19f8ec09")
+	)
+	(wire
+		(pts
+			(xy 87.63 143.51) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7929f96d-f277-49ac-8980-51b4af38aaeb")
 	)
 	(wire
 		(pts
@@ -4002,6 +4310,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 171.45) (xy 77.47 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4300f6-9709-48d9-a946-15d2dc435d9b")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 154.94 38.1)
 		)
 		(stroke
@@ -4009,16 +4327,6 @@
 			(type default)
 		)
 		(uuid "7c495c24-46ab-4c7a-9ce6-c908337b5e7f")
-	)
-	(wire
-		(pts
-			(xy 163.83 193.04) (xy 166.37 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c56ed9b-6339-4ab4-a019-0bd36013aecf")
 	)
 	(wire
 		(pts
@@ -4042,17 +4350,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 140.97) (xy 88.9 140.97)
+			(xy 44.45 171.45) (xy 45.72 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f024e24-5c8a-416b-bc85-481cb2f51f4b")
+		(uuid "7f6a0d48-2aa2-43ed-a524-abc3504417b5")
 	)
 	(wire
 		(pts
-			(xy 152.4 187.96) (xy 153.67 187.96)
+			(xy 143.51 187.96) (xy 142.24 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4062,13 +4370,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 171.45) (xy 88.9 171.45)
+			(xy 142.24 143.51) (xy 143.51 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80ce9285-0364-4f3f-b3ac-eb3ca51c7c7a")
+		(uuid "80e79c55-5fd1-4dda-8c76-7b302dc9cd1d")
+	)
+	(wire
+		(pts
+			(xy 143.51 154.94) (xy 142.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820513db-52f4-4aeb-bf27-0a1cc9d044d4")
 	)
 	(wire
 		(pts
@@ -4082,43 +4400,53 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 110.49 138.43)
+			(xy 35.56 173.99) (xy 35.56 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82aebfa2-7700-4705-8ee2-ad3f228d450f")
+		(uuid "83485e8e-46d1-4423-998e-31a95e485f8f")
 	)
 	(wire
 		(pts
-			(xy 34.29 176.53) (xy 35.56 176.53)
+			(xy 35.56 143.51) (xy 34.29 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8687c988-dca0-4667-8029-f40f22703bb3")
+		(uuid "85b03308-15e6-47f5-9e29-7e111dd90781")
 	)
 	(wire
 		(pts
-			(xy 130.81 154.94) (xy 132.08 154.94)
+			(xy 35.56 157.48) (xy 35.56 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "881ae739-f233-474f-bad0-e4c50fb95f03")
+		(uuid "8655cbda-f519-4036-98b4-b63b5570d2df")
 	)
 	(wire
 		(pts
-			(xy 142.24 193.04) (xy 143.51 193.04)
+			(xy 66.04 154.94) (xy 66.04 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a49b063-dcef-4d54-a632-a6626635fde9")
+		(uuid "879d8b51-b7fe-4e0d-bb12-982fb0f8485e")
+	)
+	(wire
+		(pts
+			(xy 87.63 138.43) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c76cbf-2901-46db-acb4-f10f2aa25cb7")
 	)
 	(wire
 		(pts
@@ -4132,6 +4460,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 193.04) (xy 132.08 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba9c54e-9c53-4ebc-90ae-d740e8dbde23")
+	)
+	(wire
+		(pts
 			(xy 223.52 107.95) (xy 227.33 107.95)
 		)
 		(stroke
@@ -4139,6 +4477,16 @@
 			(type default)
 		)
 		(uuid "8d249d96-daaf-496e-98f6-31813729a1e3")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db6ffab-5ce0-4b7e-89e3-45a03cb753ee")
 	)
 	(wire
 		(pts
@@ -4162,26 +4510,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 171.45) (xy 55.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f5f19b6-3a75-4b45-b4c2-ce95cfb960a2")
-	)
-	(wire
-		(pts
-			(xy 132.08 140.97) (xy 132.08 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbcea80-09cb-4e4d-8928-6969715740a4")
-	)
-	(wire
-		(pts
 			(xy 223.52 133.35) (xy 227.33 133.35)
 		)
 		(stroke
@@ -4189,6 +4517,16 @@
 			(type default)
 		)
 		(uuid "9017a29c-b501-465c-9351-c89597b4b0a0")
+	)
+	(wire
+		(pts
+			(xy 78.74 173.99) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90311e27-cacf-4ade-8566-8cd7d3a77b20")
 	)
 	(wire
 		(pts
@@ -4202,7 +4540,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 100.33)
+			(xy 168.91 101.6) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4222,6 +4560,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 154.94) (xy 99.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919793ac-fed9-4003-b2ca-71b591329bf0")
+	)
+	(wire
+		(pts
+			(xy 35.56 176.53) (xy 34.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921510bc-0f83-4726-9fcd-86514efe7b28")
+	)
+	(wire
+		(pts
 			(xy 165.1 30.48) (xy 165.1 50.8)
 		)
 		(stroke
@@ -4229,16 +4587,6 @@
 			(type default)
 		)
 		(uuid "9245234e-1cd8-42f6-85bf-64c7ea8e0960")
-	)
-	(wire
-		(pts
-			(xy 44.45 171.45) (xy 45.72 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92760a0d-58d8-4774-a6c8-f62eae5acd2a")
 	)
 	(wire
 		(pts
@@ -4272,6 +4620,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 143.51) (xy 24.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943c570a-2594-4d17-b011-529aba0e21d8")
+	)
+	(wire
+		(pts
 			(xy 40.64 106.68) (xy 41.91 106.68)
 		)
 		(stroke
@@ -4292,13 +4650,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 157.48) (xy 88.9 160.02)
+			(xy 35.56 171.45) (xy 34.29 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95a5522e-c14d-41af-8e3d-d1243d9894ce")
+		(uuid "9578a0f0-d4e7-43d4-a624-1b7a7ab6594a")
 	)
 	(wire
 		(pts
@@ -4312,13 +4670,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 160.02) (xy 57.15 160.02)
+			(xy 109.22 187.96) (xy 110.49 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99571e03-d350-4a72-bcf3-556fe97def54")
+		(uuid "989c6c31-cdef-48db-a8f2-5558c98ba2dd")
+	)
+	(wire
+		(pts
+			(xy 100.33 157.48) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99239ddc-d51b-46fb-8057-afa84e578c98")
 	)
 	(wire
 		(pts
@@ -4332,13 +4700,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 173.99) (xy 67.31 173.99)
+			(xy 143.51 171.45) (xy 142.24 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "997737b1-c465-4dce-a389-895b230bb5e7")
+		(uuid "9a2f1ddc-cf89-405c-af23-2c449fc0ae85")
 	)
 	(wire
 		(pts
@@ -4349,6 +4717,16 @@
 			(type default)
 		)
 		(uuid "9b301551-3704-41b8-822e-13ffc83c7645")
+	)
+	(wire
+		(pts
+			(xy 87.63 140.97) (xy 78.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8d849e-92ee-4ca5-a956-8550df51f9fc")
 	)
 	(wire
 		(pts
@@ -4372,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 153.67 100.33)
+			(xy 149.86 95.25) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4402,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 171.45) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f65453d-3a41-4f40-957e-2ab57e138f57")
+	)
+	(wire
+		(pts
 			(xy 242.57 149.86) (xy 236.22 149.86)
 		)
 		(stroke
@@ -4409,6 +4797,26 @@
 			(type default)
 		)
 		(uuid "9f72b3d3-32a7-48ba-94ae-22316dc6008c")
+	)
+	(wire
+		(pts
+			(xy 109.22 157.48) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f90700b-1246-4c5c-98c5-747c6b1ed2ee")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 205.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc0f451-5a46-4075-b632-e9d04ae84d89")
 	)
 	(wire
 		(pts
@@ -4422,23 +4830,83 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 154.94) (xy 88.9 154.94)
+			(xy 87.63 160.02) (xy 88.9 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2150011-1bb2-4414-bc76-b0b02ac81433")
+		(uuid "a218fa19-3496-4c03-b4bb-8f1ec1aa4bbd")
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 172.72 100.33)
+			(xy 165.1 100.33) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a238df55-ce14-4390-a265-f8b12f3ed8fe")
+	)
+	(wire
+		(pts
+			(xy 100.33 173.99) (xy 100.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a80244-3998-4e67-8d0f-822d981a9386")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 78.74 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2db23fa-8b8e-47c9-a042-236d9f6de09e")
+	)
+	(wire
+		(pts
+			(xy 121.92 187.96) (xy 120.65 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fa7d1d-a5e0-4f92-a6eb-d0afabe98c8b")
+	)
+	(wire
+		(pts
+			(xy 44.45 171.45) (xy 44.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a433fdb8-5bf9-428f-a6fc-0124d00969b4")
+	)
+	(wire
+		(pts
+			(xy 142.24 160.02) (xy 143.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45d9b38-3f3c-4d4f-948d-27472d23e45c")
+	)
+	(wire
+		(pts
+			(xy 57.15 160.02) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4885079-d303-4737-b346-8c8eb1789ec6")
 	)
 	(wire
 		(pts
@@ -4452,13 +4920,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 138.43) (xy 67.31 138.43)
+			(xy 44.45 138.43) (xy 44.45 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7a20c3d-05af-4007-9638-4399d1960fe0")
+		(uuid "a73a8e56-62de-4e51-86d9-ba8c3b3bf9b0")
 	)
 	(wire
 		(pts
@@ -4472,6 +4940,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 143.51) (xy 77.47 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a989b699-698a-4e71-a393-0e1bcc631207")
+	)
+	(wire
+		(pts
 			(xy 223.52 118.11) (xy 227.33 118.11)
 		)
 		(stroke
@@ -4482,13 +4960,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 143.51) (xy 121.92 143.51)
+			(xy 130.81 187.96) (xy 130.81 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aadb1e41-69da-42c7-b304-4f910ba3897f")
+		(uuid "aa99970e-eb20-44bb-b765-bc33e7cdf9ff")
+	)
+	(wire
+		(pts
+			(xy 24.13 171.45) (xy 22.86 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa999d6f-88a0-454c-8367-577eb8c1a1ed")
 	)
 	(wire
 		(pts
@@ -4512,7 +5000,27 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 168.91 106.68)
+			(xy 78.74 138.43) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad597c5a-463b-4225-ab30-b5561390e2bb")
+	)
+	(wire
+		(pts
+			(xy 57.15 154.94) (xy 55.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb8ff48-0de8-4e9d-9e74-47137e643781")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4522,23 +5030,33 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 154.94) (xy 45.72 154.94)
+			(xy 152.4 187.96) (xy 152.4 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af886173-5aa1-4626-9a81-39450afd5647")
+		(uuid "afafa7ee-0827-4e83-9e1e-331a3143b7dd")
 	)
 	(wire
 		(pts
-			(xy 88.9 173.99) (xy 88.9 176.53)
+			(xy 100.33 160.02) (xy 99.06 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1c2a2e1-778e-4f99-901c-619997fce1a2")
+		(uuid "b0448264-ffa9-428d-85a1-86ed19478249")
+	)
+	(wire
+		(pts
+			(xy 22.86 163.83) (xy 22.86 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09b77ed-c3eb-4b2e-8697-3f8f6f06aa96")
 	)
 	(wire
 		(pts
@@ -4552,16 +5070,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 138.43) (xy 24.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24c52a9-bdec-4632-98c9-cb68a66b7828")
-	)
-	(wire
-		(pts
 			(xy 223.52 123.19) (xy 227.33 123.19)
 		)
 		(stroke
@@ -4569,16 +5077,6 @@
 			(type default)
 		)
 		(uuid "b2e1156f-368f-40c3-b51a-4691052d6d92")
-	)
-	(wire
-		(pts
-			(xy 67.31 157.48) (xy 67.31 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b018a0-2c94-4e90-bbda-e22c632ff9f9")
 	)
 	(wire
 		(pts
@@ -4592,13 +5090,33 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 138.43) (xy 34.29 140.97)
+			(xy 109.22 173.99) (xy 100.33 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b44ff96c-fd96-419b-af08-0a1eb4a174e6")
+		(uuid "b474893b-22d3-43b0-8d1b-960727ea65df")
+	)
+	(wire
+		(pts
+			(xy 121.92 138.43) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47f3b9f-f612-4011-a761-ce606be8253f")
+	)
+	(wire
+		(pts
+			(xy 109.22 140.97) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ba466d-2431-4a61-bda4-28ad07410ced")
 	)
 	(wire
 		(pts
@@ -4612,23 +5130,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 157.48) (xy 132.08 160.02)
+			(xy 44.45 154.94) (xy 45.72 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b578b9db-9225-4dda-ba2a-b603cbf4c318")
+		(uuid "b53dcc4f-cdab-4994-81ab-65e3f36a637a")
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 144.78 160.02)
+			(xy 262.89 115.57) (xy 270.51 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b61c55e2-5b91-4a83-8769-68dc9c983718")
+		(uuid "b67bde16-a2fc-4a25-a81e-1274a958a7f7")
 	)
 	(wire
 		(pts
@@ -4672,13 +5190,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 190.5) (xy 153.67 193.04)
+			(xy 87.63 157.48) (xy 78.74 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcfa8906-f620-4252-ac7a-8a83a819cc57")
+		(uuid "bb615545-77e8-463b-8d33-d93734d1ca27")
 	)
 	(wire
 		(pts
@@ -4692,13 +5210,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 140.97) (xy 45.72 140.97)
+			(xy 121.92 143.51) (xy 120.65 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be04dd60-c462-4240-bd64-3e1196ea6797")
+		(uuid "be9f38c4-1338-4edd-8c6e-042462d61921")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 100.33 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf82b2c0-053b-4743-af4d-377189eb4457")
 	)
 	(wire
 		(pts
@@ -4709,16 +5237,6 @@
 			(type default)
 		)
 		(uuid "bfe42384-0f2b-42eb-aaa4-0807a1759a1d")
-	)
-	(wire
-		(pts
-			(xy 99.06 143.51) (xy 100.33 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c015a2ce-a6c6-43aa-b823-793e9e3e0953")
 	)
 	(wire
 		(pts
@@ -4742,13 +5260,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 173.99) (xy 110.49 173.99)
+			(xy 109.22 180.34) (xy 109.22 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1f5ce82-7d68-45ff-b238-1dc5dd8595a6")
+		(uuid "c14295e8-0fac-418d-abff-15737c8712bd")
 	)
 	(wire
 		(pts
@@ -4782,6 +5300,36 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 157.48) (xy 35.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31be588-18b1-4113-b58e-7a17927757f4")
+	)
+	(wire
+		(pts
+			(xy 44.45 173.99) (xy 35.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c508ee0f-b9f6-47cc-9f97-9758b22b521c")
+	)
+	(wire
+		(pts
+			(xy 100.33 143.51) (xy 99.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62f492c-d003-4412-97d2-e37ddd04fa8f")
+	)
+	(wire
+		(pts
 			(xy 227.33 138.43) (xy 223.52 138.43)
 		)
 		(stroke
@@ -4792,13 +5340,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 160.02) (xy 35.56 160.02)
+			(xy 57.15 171.45) (xy 55.88 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7c9413b-a6ab-48b0-86cf-c8905d17a139")
+		(uuid "c8ba67ea-d6b8-4d95-87df-adbe8441a634")
+	)
+	(wire
+		(pts
+			(xy 121.92 140.97) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9228609-c54b-4df8-adb0-338349b594ae")
 	)
 	(wire
 		(pts
@@ -4822,6 +5380,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 193.04) (xy 110.49 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa6df5d-0797-4afc-ad09-6efe4b5f18a4")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7164c3-fc53-4cc0-b949-43b8340aacdd")
+	)
+	(wire
+		(pts
 			(xy 144.78 30.48) (xy 154.94 30.48)
 		)
 		(stroke
@@ -4832,23 +5410,73 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 176.53) (xy 121.92 176.53)
+			(xy 87.63 176.53) (xy 88.9 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccbba884-2af5-425a-96d4-96874291bce0")
+		(uuid "cc50a1ad-8424-4579-9f39-c09e042c11f2")
 	)
 	(wire
 		(pts
-			(xy 107.95 187.96) (xy 110.49 187.96)
+			(xy 121.92 173.99) (xy 121.92 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cded12bf-60b8-49ef-9390-c46e734669fc")
+		(uuid "ce39ad23-d6dc-4a3c-83dc-366d73ba90c6")
+	)
+	(wire
+		(pts
+			(xy 44.45 143.51) (xy 45.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfac66a2-c95f-4af2-b335-e6f85b35bc17")
+	)
+	(wire
+		(pts
+			(xy 24.13 154.94) (xy 22.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01427b7-8dd0-4a6a-8b2e-79bbfaed3d29")
+	)
+	(wire
+		(pts
+			(xy 100.33 171.45) (xy 99.06 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1560372-b41d-4cd6-a8b7-c4b58edfd98c")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 67.31 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b5d3bc-75bf-4aa2-91aa-b104196ec498")
+	)
+	(wire
+		(pts
+			(xy 194.31 62.23) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4429a04-fa00-40eb-8ec8-821bc39f5313")
 	)
 	(wire
 		(pts
@@ -4872,16 +5500,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 193.04) (xy 109.22 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5531f34-f3c4-4ba7-a74a-59492db39dc1")
-	)
-	(wire
-		(pts
 			(xy 167.64 34.29) (xy 167.64 54.61)
 		)
 		(stroke
@@ -4892,33 +5510,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 173.99) (xy 45.72 176.53)
+			(xy 130.81 171.45) (xy 130.81 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d889114c-3d19-453c-afee-888a35f54480")
-	)
-	(wire
-		(pts
-			(xy 99.06 171.45) (xy 99.06 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b8210c-e172-46fc-8702-07da887ad02b")
-	)
-	(wire
-		(pts
-			(xy 120.65 190.5) (xy 132.08 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c9ca4b-0dde-49e2-ad08-8bfff5008545")
+		(uuid "d98140c4-2ccb-48d9-af4c-f52a2f839412")
 	)
 	(wire
 		(pts
@@ -4932,23 +5530,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 99.06 140.97)
+			(xy 87.63 154.94) (xy 88.9 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc0605e4-bc11-4355-86a8-1016f1fdfa8c")
+		(uuid "dc6d3006-e1b4-4563-8590-95f76bd4015a")
 	)
 	(wire
 		(pts
-			(xy 55.88 140.97) (xy 67.31 140.97)
+			(xy 130.81 154.94) (xy 130.81 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd725156-eca6-48e3-97ae-98687256b987")
+		(uuid "dd9b303c-5903-49fa-a0ba-e7245cffbb7e")
 	)
 	(wire
 		(pts
@@ -4959,16 +5557,6 @@
 			(type default)
 		)
 		(uuid "dda5ca6f-da0e-4b8c-ab11-8ba47620dd04")
-	)
-	(wire
-		(pts
-			(xy 143.51 138.43) (xy 142.24 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9837bd-ccf8-4671-88ae-67b3d0a5647d")
 	)
 	(wire
 		(pts
@@ -4992,13 +5580,53 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 173.99) (xy 88.9 173.99)
+			(xy 22.86 176.53) (xy 24.13 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfab016f-b345-4d79-84a7-805ba79c05ea")
+		(uuid "dfecfc39-eaa6-4049-b29e-161293ae7d54")
+	)
+	(wire
+		(pts
+			(xy 66.04 138.43) (xy 67.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03c219a-1275-4ca4-accf-0499991eb60c")
+	)
+	(wire
+		(pts
+			(xy 57.15 176.53) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e138e1f9-3834-467a-a782-92ab52de6a38")
+	)
+	(wire
+		(pts
+			(xy 130.81 160.02) (xy 132.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b0b451-986a-4586-af40-0e9afe125315")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c74cfb-13f5-470b-b24a-5af6a8f30abb")
 	)
 	(wire
 		(pts
@@ -5022,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 168.91 95.25)
+			(xy 165.1 100.33) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5052,13 +5680,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 132.08 138.43)
+			(xy 190.5 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8e8a4b4-3a8c-4579-8738-4d14cd0f6505")
+		(uuid "e80b86f6-3783-4b72-8c9c-9f46d013c617")
 	)
 	(wire
 		(pts
@@ -5072,16 +5700,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 176.53) (xy 78.74 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92aace2-d30a-4142-9720-559f3de99aa3")
-	)
-	(wire
-		(pts
 			(xy 93.98 121.92) (xy 95.25 121.92)
 		)
 		(stroke
@@ -5089,6 +5707,36 @@
 			(type default)
 		)
 		(uuid "e9d86aac-b8b0-4762-9d04-ec9b87877b73")
+	)
+	(wire
+		(pts
+			(xy 143.51 176.53) (xy 143.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8af24c-4214-4c42-9b8b-cfdf37161abf")
+	)
+	(wire
+		(pts
+			(xy 87.63 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9085bb-2689-4e50-a093-4a5a15a365e3")
+	)
+	(wire
+		(pts
+			(xy 121.92 193.04) (xy 120.65 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac72328-6c19-4aef-94f6-b68b58a3b173")
 	)
 	(wire
 		(pts
@@ -5109,16 +5757,6 @@
 			(type default)
 		)
 		(uuid "ee3a7860-7a6e-41ea-a97a-f451dd919789")
-	)
-	(wire
-		(pts
-			(xy 120.65 154.94) (xy 120.65 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebb7cbd-941a-4ade-a24c-7c110fefe9b0")
 	)
 	(wire
 		(pts
@@ -5192,23 +5830,53 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 176.53) (xy 24.13 176.53)
+			(xy 44.45 154.94) (xy 44.45 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f78536f1-761a-4076-a581-022e4185eb8b")
+		(uuid "f606ab50-fa89-4b24-b797-e97e294a6524")
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 142.24 190.5)
+			(xy 205.74 62.23) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f802428d-8096-4cba-92a8-f04971685bf9")
+		(uuid "f6310489-d1af-4108-b1bb-ee943fd6768e")
+	)
+	(wire
+		(pts
+			(xy 78.74 140.97) (xy 78.74 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65f08ed-9075-4155-b457-b7c419f9b090")
+	)
+	(wire
+		(pts
+			(xy 109.22 171.45) (xy 109.22 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b2d0ca-4141-4526-ae90-a4c763399476")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778eabd-e7b8-4453-994c-28f9b5e294cc")
 	)
 	(wire
 		(pts
@@ -5222,13 +5890,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 154.94) (xy 142.24 154.94)
+			(xy 78.74 160.02) (xy 77.47 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8e82fce-c1f8-46bc-ab9d-2b62e9218bfb")
+		(uuid "f8a782a9-0a27-4292-aa76-f1cecf9fbc88")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 55.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f940b127-b4cf-4801-8141-911f63bd4260")
+	)
+	(wire
+		(pts
+			(xy 35.56 138.43) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa7f9da-1cf6-431b-81ce-659541cfb87e")
 	)
 	(wire
 		(pts
@@ -5242,13 +5930,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 187.96) (xy 166.37 187.96)
+			(xy 66.04 173.99) (xy 57.15 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd0b1bc5-bfa4-49d3-acf9-b409f129483a")
+		(uuid "fbafbcf7-0d86-4746-80c2-1320a29fa334")
 	)
 	(wire
 		(pts
@@ -5272,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 153.67 100.33)
+			(xy 146.05 100.33) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5290,6 +5978,36 @@
 		)
 		(uuid "fd7e4cba-591f-401d-8b8e-6eca44c1de21")
 	)
+	(text "Right\n(F.Cu)"
+		(exclude_from_sim no)
+		(at 194.31 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02e6acc4-077a-4342-827b-bf87fbc7d892")
+	)
+	(text "Left\n(B.Cu)"
+		(exclude_from_sim no)
+		(at 205.486 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "167d354d-6bf1-442a-aca3-442790ed7668")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 187.452 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24580a48-d4b0-4c85-a355-6e7c660808ca")
+	)
 	(text "Left\n(B.Cu)"
 		(exclude_from_sim no)
 		(at 186.69 95.25 0)
@@ -5299,6 +6017,16 @@
 			)
 		)
 		(uuid "4dcbd7f0-45db-45a8-83fc-2fa5adad6204")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 187.706 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e61bc86-4460-4e60-ab9a-07346aecd8ce")
 	)
 	(text "Left\n(B.Cu)"
 		(exclude_from_sim no)
@@ -5705,7 +6433,7 @@
 		(uuid "9281aca7-9cc0-4bb3-8e62-6bed82f50deb")
 	)
 	(label "LED"
-		(at 166.37 187.96 0)
+		(at 166.37 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5716,7 +6444,7 @@
 		(uuid "99d4e224-10dc-4a32-9ad1-8a3f90e62c20")
 	)
 	(label "RST"
-		(at 149.86 100.33 180)
+		(at 146.05 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6035,142 +6763,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0865b262-5b17-4534-83b9-9f871c6652b5")
-		(property "Reference" "#PWR043"
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f0b9281-6c6b-4cc3-bef4-85a03d402f95")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08f9605d-21eb-401a-9759-457f2573ab67")
-		(property "Reference" "#PWR059"
-			(at 124.46 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fe2f08b-8205-4c14-9c2a-dddba1c04754")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 161.29 106.68 0)
+		(at 157.48 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6178,7 +6772,7 @@
 		(dnp no)
 		(uuid "0a2b1ee4-265c-44b6-8469-2dda9aee73cb")
 		(property "Reference" "RST_R1"
-			(at 161.29 100.33 0)
+			(at 157.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6780,7 @@
 			)
 		)
 		(property "Value" "SW_RST"
-			(at 161.29 102.87 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6788,7 @@
 			)
 		)
 		(property "Footprint" "cornia-footprints:SW_SMD_4x4mm"
-			(at 161.29 106.68 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 106.68 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6806,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 161.29 106.68 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -6369,6 +6963,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 109.22 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c0e5816-f77a-47a5-91d1-e0c8274b87b0")
+		(property "Reference" "#PWR063"
+			(at 113.03 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 107.188 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34b559c-cf9a-459f-aade-6f9bbfc8ffa8")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 158.75 58.42 0)
 		(unit 1)
@@ -6393,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 58.42 0)
 			(effects
 				(font
@@ -6460,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 34.29 0)
 			(effects
 				(font
@@ -6497,6 +7156,73 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "SB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10be6366-828d-4c20-ac22-c6520b07445f")
+		(property "Reference" "#PWR059"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 138.4301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6864ae3-5a6a-4f80-b1ca-064d4268c3ff")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6640,73 +7366,6 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 121.92 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11e1386f-8ed8-47fb-9bcf-69054dc4fa85")
-		(property "Reference" "#PWR060"
-			(at 118.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 125.73 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 121.92 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "328eba50-7cf8-4206-9aed-981cf0983255")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
 		(at 270.51 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6773,6 +7432,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 130.81 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16007678-0e49-499a-ad18-43bfb2ec0bd6")
+		(property "Reference" "#PWR052"
+			(at 134.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 128.778 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e26c5c-0a8e-484d-8644-bc788ec3608f")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 72.39 140.97 0)
 		(mirror x)
@@ -6783,7 +7507,7 @@
 		(dnp no)
 		(uuid "16d7dcf1-bcec-400c-9d91-d2c588cc3710")
 		(property "Reference" "L3"
-			(at 72.39 133.35 0)
+			(at 72.39 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -6791,7 +7515,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 72.39 135.89 0)
+			(at 72.39 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -6935,12 +7659,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 191.77 85.09 0)
+		(property "Value" "VI2C"
+			(at 194.31 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7057,7 +7782,7 @@
 		(dnp no)
 		(uuid "1ad2785a-aa48-4e59-8332-2b082ff7174c")
 		(property "Reference" "L11"
-			(at 115.57 149.86 0)
+			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -7065,7 +7790,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 115.57 152.4 0)
+			(at 115.57 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -7131,7 +7856,7 @@
 		(dnp no)
 		(uuid "1c06aa04-9a1c-48cd-8c0b-f12f3621bb41")
 		(property "Reference" "L19"
-			(at 115.57 182.88 0)
+			(at 115.57 190.5 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -7139,7 +7864,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 115.57 185.42 0)
+			(at 115.57 189.23 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -7353,7 +8078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -7458,73 +8183,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "SW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2550f995-55a1-4e20-acc5-f09e6c9312e5")
-		(property "Reference" "#PWR035"
-			(at 102.87 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdb2d982-0817-4eb7-b5e5-10bc2983c120")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7671,7 +8329,7 @@
 		(dnp no)
 		(uuid "2b41e3fb-c2db-43b0-a197-344ea44cfb2c")
 		(property "Reference" "L9"
-			(at 72.39 149.86 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -7679,7 +8337,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 72.39 152.4 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -7729,6 +8387,71 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 130.81 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d433157-1a53-4a8c-8f45-48cb1a345f20")
+		(property "Reference" "#PWR032"
+			(at 134.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 128.778 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 130.81 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6d9f9aa-b2f7-4856-8869-44c714eaf2b7")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7877,7 +8600,7 @@
 		(dnp no)
 		(uuid "3131bf76-ff6c-4dd2-8cc3-c4095956f6be")
 		(property "Reference" "L15"
-			(at 72.39 166.37 0)
+			(at 72.39 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -7885,7 +8608,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 72.39 168.91 0)
+			(at 72.39 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -8073,73 +8796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 121.92 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33cf4712-0ef1-4894-9d36-e8f8cbda6237")
-		(property "Reference" "#PWR032"
-			(at 118.11 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 125.73 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 121.92 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19deda15-5463-4591-95bc-4cf0bfe03241")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 50.8 157.48 0)
 		(mirror x)
@@ -8150,7 +8806,7 @@
 		(dnp no)
 		(uuid "35452853-a051-47f7-b2bc-d682c93906bc")
 		(property "Reference" "L8"
-			(at 50.8 149.86 0)
+			(at 50.8 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -8158,7 +8814,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 50.8 152.4 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -8208,6 +8864,71 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 22.86 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3605599f-7ed2-43a7-9e7a-8933f6cd488e")
+		(property "Reference" "#PWR065"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 20.828 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ab04b7-2fa7-4aaa-8bc0-0d2db2250a4a")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8348,6 +9069,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 87.63 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b5d0eef-4364-457d-a380-3dc95f9a9766")
+		(property "Reference" "#PWR048"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 85.598 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9ca02fc-91f5-4b09-b82b-9e3a194e3fb2")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 109.22 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d2b3fe8-3f69-4df7-b024-64939dc9fe0f")
+		(property "Reference" "#PWR036"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 107.188 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5ca732-9b44-42f9-90fc-6fd8e08d9917")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:Hole")
 		(at 24.13 40.64 0)
 		(unit 1)
@@ -8478,6 +9329,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e17aca3-efa7-4de3-9c01-b6b22cfade78")
+		(property "Reference" "#PWR033"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 171.4501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "083d0c3d-66c9-47cd-9e0e-b0a471f72d56")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 158.75 38.1 0)
 		(unit 1)
@@ -8502,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 38.1 0)
 			(effects
 				(font
@@ -8679,6 +9597,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 44.45 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41388672-5166-4f6e-8287-3ee8839ce3ab")
+		(property "Reference" "#PWR054"
+			(at 48.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 42.418 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f3cf47-1538-4e52-8b6e-049a1c9e0afc")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 46.99 76.2 0)
 		(unit 1)
@@ -8757,7 +9740,7 @@
 		(dnp no)
 		(uuid "43973970-0a0a-418f-b89f-6277de99bada")
 		(property "Reference" "L12"
-			(at 137.16 149.86 0)
+			(at 137.16 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -8765,7 +9748,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 137.16 152.4 0)
+			(at 137.16 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -8821,17 +9804,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 57.15 143.51 270)
+		(lib_id "power:GND")
+		(at 57.15 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43c14a8b-26b5-48cc-bf3f-5e198bc04e8a")
-		(property "Reference" "#PWR046"
-			(at 53.34 143.51 0)
+		(uuid "44bb5a0b-bd57-40ec-b9f1-8a68d52bf721")
+		(property "Reference" "#PWR039"
+			(at 63.5 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,17 +9822,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 60.96 143.5099 90)
+		(property "Value" "GND"
+			(at 60.96 171.4501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 143.51 0)
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 143.51 0)
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,8 +9849,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,12 +9859,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "57e265fe-94bc-4d56-bb05-d49ed0333051")
+			(uuid "446b735d-4645-48f4-a88f-add512a8168e")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR046")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9020,17 +10003,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 194.31 68.58 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "48e6233a-91bb-4478-94b5-ee38781dfe9d")
+		(property "Reference" "SB12"
+			(at 200.66 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 191.77 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cornia-footprints:SolderJumper-3_I2C"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7c814f2e-1218-41c0-98ee-91af1df87e16")
+		)
+		(pin "2"
+			(uuid "f73a2fe3-9f7b-44c5-9436-87b07331c5ca")
+		)
+		(pin "1"
+			(uuid "eeaaba4d-d7ef-4160-ac07-338eaabd9b69")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "SB12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 152.4 187.96 270)
+		(at 143.51 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c44d1a4-2d2f-47aa-84b4-e445e4cd41bf")
-		(property "Reference" "#PWR029"
-			(at 146.05 187.96 0)
+		(uuid "4b6335dc-6427-4f7c-8eec-408aa42ee16a")
+		(property "Reference" "#PWR067"
+			(at 149.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +10095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 187.9599 90)
+			(at 147.32 171.4501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +10104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 187.96 0)
+			(at 143.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +10113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 187.96 0)
+			(at 143.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +10122,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 187.96 0)
+			(at 143.51 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78ba39d-aba0-484a-a45f-3c9feb19af1c")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c44d1a4-2d2f-47aa-84b4-e445e4cd41bf")
+		(property "Reference" "#PWR029"
+			(at 149.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 187.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,6 +10280,73 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "OL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c4c2d9-2218-450d-a028-43af6b1782c7")
+		(property "Reference" "#PWR043"
+			(at 41.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87476713-7921-4643-af54-7f5dde3a0aff")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9297,6 +10487,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 109.22 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5541227c-bb27-49a0-9cce-caa0c2a17e5c")
+		(property "Reference" "#PWR060"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 107.188 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f04063d-fb49-43d4-bd6e-77f66e9e6b54")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 115.57 173.99 0)
 		(mirror x)
@@ -9307,7 +10562,7 @@
 		(dnp no)
 		(uuid "576c18bd-732b-4b07-96bd-2b33fec43c7a")
 		(property "Reference" "L17"
-			(at 115.57 166.37 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -9315,7 +10570,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 115.57 168.91 0)
+			(at 115.57 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -9372,7 +10627,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 161.29 95.25 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9380,7 +10635,7 @@
 		(dnp no)
 		(uuid "5a25da68-f8ab-429d-86bc-5f2cb93b2bca")
 		(property "Reference" "RST_L1"
-			(at 161.29 88.646 0)
+			(at 157.48 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +10643,7 @@
 			)
 		)
 		(property "Value" "SW_RST"
-			(at 161.29 91.186 0)
+			(at 157.48 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +10651,7 @@
 			)
 		)
 		(property "Footprint" "cornia-footprints:SW_SMD_4x4mm"
-			(at 161.29 95.25 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +10660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 95.25 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,7 +10669,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 161.29 95.25 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,16 +10694,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 171.45 270)
+		(at 78.74 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b6213d9-b330-47dc-81e8-2d67c0b3e41b")
-		(property "Reference" "#PWR066"
-			(at 15.24 171.45 0)
+		(uuid "5a8136f1-2a84-40b8-8baa-4646f94d63c7")
+		(property "Reference" "#PWR057"
+			(at 85.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +10712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 171.4499 90)
+			(at 82.55 138.4301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +10721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 171.45 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +10730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 171.45 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +10739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 171.45 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,12 +10748,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "d249a3ae-24e0-4d03-97c7-0e477a400c86")
+			(uuid "267a031e-f859-4668-b516-07035ce87ea3")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR066")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 130.81 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a830a35-43be-4fe0-9007-5388f3dff00a")
+		(property "Reference" "#PWR062"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 128.778 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8caf3be3-3a4b-40b0-a0df-7ec722a7eeae")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9571,6 +10891,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ddc5c55-f990-4385-84ae-be21397df82b")
+		(property "Reference" "#PWR061"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 138.4301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b6925bd-cf6e-4ebe-b879-a95f4e2eef05")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 137.16 140.97 0)
 		(mirror x)
@@ -9581,7 +10968,7 @@
 		(dnp no)
 		(uuid "5ea5fd46-7901-4947-99e0-55da68bf35ac")
 		(property "Reference" "L6"
-			(at 137.16 133.35 0)
+			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -9589,7 +10976,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 137.16 135.89 0)
+			(at 137.16 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -9984,73 +11371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 144.78 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62511cae-2db5-4b6e-8638-4e94df5a9c5c")
-		(property "Reference" "#PWR063"
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 148.59 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 144.78 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbedeff6-41c5-4301-b1f0-1d40c7f7ff5d")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 158.75 54.61 0)
 		(unit 1)
@@ -10075,7 +11395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -10112,6 +11432,73 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "SB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6907d23a-09bc-42f7-8ecb-238ce892a175")
+		(property "Reference" "#PWR037"
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 171.4501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "333675c2-6d4b-4703-90fe-46a1f92a031c")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10215,7 +11602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cornia-footprints:TRRS"
+		(property "Footprint" "cornia-footprints:TRRS_PJ-320A"
 			(at 261.62 73.66 0)
 			(effects
 				(font
@@ -10265,16 +11652,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 187.96 270)
+		(at 121.92 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c875f78-34d0-4682-9746-ddba3f25f656")
+		(uuid "6d1c3cbb-7240-4c48-b709-2fa2fc19b111")
 		(property "Reference" "#PWR031"
-			(at 124.46 187.96 0)
+			(at 128.27 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +11670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 187.9599 90)
+			(at 125.73 187.9601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +11679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 187.96 0)
+			(at 121.92 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +11688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 187.96 0)
+			(at 121.92 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +11697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 187.96 0)
+			(at 121.92 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,79 +11706,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc6996a6-4c4c-4212-b7ba-0e9a3f48c011")
+			(uuid "d8838ac0-5834-44ed-a59e-7e3843ad5df3")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 121.92 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "712cf6f2-76be-4def-adfd-0fd25508fa9c")
-		(property "Reference" "#PWR058"
-			(at 118.11 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 125.73 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 121.92 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27c6d74b-7c52-444a-b330-92e36aac4a7b")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10458,73 +11778,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "747507f7-873e-4201-a7e0-2ad3e8ed4cb7")
-		(property "Reference" "#PWR033"
-			(at 124.46 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "156e03ec-9388-46ed-aad7-b1868fe47006")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10793,6 +12046,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78401a76-b35d-40e2-937a-55d91b9d54ec")
+		(property "Reference" "#PWR035"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 171.4501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10139b4a-6caa-4a5d-9241-b2011211d9d6")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 237.49 68.58 0)
 		(unit 1)
@@ -10860,6 +12180,205 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 209.55 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b43cf43-02da-44e2-8669-fe8b2364a718")
+		(property "Reference" "#PWR083"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VI2C"
+			(at 209.804 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21b4e34b-2f08-4fc8-80f0-84f3dc136b40")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 190.5 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bc3bcef-0246-4621-a061-20045a06916c")
+		(property "Reference" "#PWR081"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 186.69 74.9301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2342aec2-9c3d-422a-aea2-245135e3d865")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be2f511-fd06-487c-b9f4-9c3d6bc73501")
+		(property "Reference" "#PWR055"
+			(at 63.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 138.4301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c28d19-3a05-430f-a82b-b44e8025f356")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 91.44 0)
 		(unit 1)
@@ -10920,140 +12439,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7db93e98-8292-4640-b9d3-0e22a3a28ed6")
-		(property "Reference" "#PWR045"
-			(at 38.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52c88fba-14a6-44a9-9251-5136321ecf4b")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 78.74 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e7bc035-a1a8-4870-9ac1-6465e32153cb")
-		(property "Reference" "#PWR050"
-			(at 74.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 82.55 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 78.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a97d2c3-b318-4b5d-b197-8d5c261ad309")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11202,7 +12587,7 @@
 		(dnp no)
 		(uuid "85bfe804-ea12-4b4b-9383-88a61a5d4f9f")
 		(property "Reference" "L20"
-			(at 137.16 182.88 0)
+			(at 137.16 190.5 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -11210,7 +12595,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 137.16 185.42 0)
+			(at 137.16 189.23 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -11344,7 +12729,7 @@
 		(dnp no)
 		(uuid "897883f3-fba6-464d-a5b2-fbc5f10dacb1")
 		(property "Reference" "L5"
-			(at 115.57 133.35 0)
+			(at 115.57 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -11352,7 +12737,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 115.57 135.89 0)
+			(at 115.57 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -11634,73 +13019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 78.74 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "900608b0-20a2-4613-87d4-56a78878575b")
-		(property "Reference" "#PWR052"
-			(at 74.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 82.55 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ffea96d-db71-4308-824e-cb8a6a60ee7f")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 106.68 0)
 		(unit 1)
@@ -11767,84 +13085,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9330639a-0150-40cc-9d8e-670a8630ebb4")
-		(property "Reference" "#PWR055"
-			(at 102.87 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46ba2b48-1f0a-4b01-8871-ba0da8a248a7")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
-		(at 100.33 160.02 270)
+		(at 66.04 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "945376d6-863f-4f1a-b100-39147d1c10d3")
+		(uuid "91f6a0dd-5856-4151-81b3-b8903025c5cf")
 		(property "Reference" "#PWR056"
-			(at 96.52 160.02 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,16 +13103,15 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 104.14 160.0199 90)
+			(at 64.008 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 160.02 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +13120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 160.02 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +13129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 100.33 160.02 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,12 +13138,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "79bef376-8237-4cdf-97cb-bb0e136a47a5")
+			(uuid "bf7c971e-ed34-44d6-ab73-39fbc0458ef8")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f1ef63-7122-412b-a292-859fb3776af3")
+		(property "Reference" "#PWR047"
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897b9839-bdc4-435e-a3c5-6ff97ab4a8b3")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11925,7 +13241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -11969,16 +13285,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 154.94 270)
+		(at 57.15 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "967f4f37-d010-47e9-a90e-cb55a0b0cff2")
-		(property "Reference" "#PWR067"
-			(at 15.24 154.94 0)
+		(uuid "97125fb8-20d0-4e96-9759-e6f99deb3854")
+		(property "Reference" "#PWR045"
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +13303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 154.9399 90)
+			(at 60.96 154.9401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +13312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 154.94 0)
+			(at 57.15 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +13321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 154.94 0)
+			(at 57.15 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,7 +13330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 154.94 0)
+			(at 57.15 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,12 +13339,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c70a528-b085-45e3-91db-23a217c0464f")
+			(uuid "e6027a70-d5e2-46c1-bc13-e7e5ef21ff48")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR067")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12036,83 +13352,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 35.56 143.51 270)
+		(at 152.4 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "994447a0-5544-484e-b54c-70acc8ba8117")
-		(property "Reference" "#PWR044"
-			(at 31.75 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1272a510-5a9a-44b9-9246-505f9a7f221b")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 143.51 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b8148c1-b959-49b7-bca0-d84abfb1d963")
 		(property "Reference" "#PWR028"
-			(at 139.7 193.04 0)
+			(at 156.21 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,16 +13369,15 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 147.32 193.0399 90)
+			(at 150.368 195.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 193.04 0)
+			(at 152.4 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +13386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 193.04 0)
+			(at 152.4 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +13395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 143.51 193.04 0)
+			(at 152.4 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,73 +13410,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 100.33 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c1101a4-a6b9-44e5-aaeb-dc25176eee94")
-		(property "Reference" "#PWR054"
-			(at 96.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 104.14 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 100.33 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6339ad5-ca12-4c09-a5fc-c256961aa283")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12314,7 +13494,7 @@
 		(dnp no)
 		(uuid "9f914260-60f9-47b5-b3ff-373220b1687a")
 		(property "Reference" "L4"
-			(at 93.98 133.35 0)
+			(at 93.98 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -12322,7 +13502,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 93.98 135.89 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -12372,73 +13552,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fd73cf6-2159-46b3-b1cc-0af9e9937aa9")
-		(property "Reference" "#PWR051"
-			(at 81.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af28ed4b-0c0e-4390-9edd-aefb1fead78a")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12537,7 +13650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:SolderJumper-2_Open"
+		(property "Footprint" "cornia-footprints:SolderJumper-2_Open_NoSilk"
 			(at 158.75 30.48 0)
 			(effects
 				(font
@@ -12725,7 +13838,7 @@
 		(dnp no)
 		(uuid "a5d9a9a7-f0f3-4f95-9cb7-fc1fefeac567")
 		(property "Reference" "L10"
-			(at 93.98 149.86 0)
+			(at 93.98 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -12733,7 +13846,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 93.98 152.4 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -12783,140 +13896,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 57.15 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6b42704-08ec-4712-b660-961db429ad12")
-		(property "Reference" "#PWR048"
-			(at 53.34 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 60.96 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ad59ba4-d61c-4a92-948f-e98a6d50ff5c")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 144.78 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a97f7a72-db6e-4122-9c4f-1861b56a5eff")
-		(property "Reference" "#PWR064"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 148.59 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa0618ae-258c-4d99-956f-e947ee117374")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -12989,6 +13968,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 87.63 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab68bfd1-a152-4f39-a549-6fb71477e906")
+		(property "Reference" "#PWR038"
+			(at 91.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 85.598 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d9d895d-1dd3-4a06-b0c1-77611ae2b6ea")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:Hole")
 		(at 41.91 40.64 0)
 		(unit 1)
@@ -13053,17 +14097,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 21.59 138.43 270)
+		(lib_id "power:VBUS")
+		(at 87.63 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4502772-9c5d-463e-a917-636597986576")
-		(property "Reference" "#PWR068"
-			(at 15.24 138.43 0)
+		(uuid "b49c1671-9905-4d22-9ccb-691e367688a3")
+		(property "Reference" "#PWR058"
+			(at 91.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,17 +14114,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 17.78 138.4299 90)
+		(property "Value" "VBUS"
+			(at 85.598 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 138.43 0)
+			(at 87.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,7 +14132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 138.43 0)
+			(at 87.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,8 +14140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 87.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,29 +14150,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bf6d1f3-cacb-4cb1-8eb0-70a293b4191c")
+			(uuid "f2d01efe-62fb-45f8-999e-71dbd47b8700")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR068")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 138.43 270)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 17.78 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8e3680e-1ead-4d22-9829-9d3b195e0182")
-		(property "Reference" "#PWR053"
-			(at 81.28 138.43 0)
+		(uuid "b7acf385-05da-4855-87b4-bb98a9e2f7f1")
+		(property "Reference" "J1"
+			(at 16.256 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 21.336 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cornia-footprints:1Pin"
+			(at 17.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,17 +14195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 83.82 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 138.43 0)
+		(property "Datasheet" "~"
+			(at 17.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,17 +14204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 138.43 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 17.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,12 +14214,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdf735e6-566f-471f-9a3b-416c6962b340")
+			(uuid "caa010f8-5ef4-431b-8731-d04732baaeb7")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR053")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13253,73 +14292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 166.37 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9f903e2-cde3-4831-a489-7a8f9a312ba5")
-		(property "Reference" "#PWR069"
-			(at 162.56 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 170.18 193.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 166.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b423f9c-54fc-437d-ae7a-445d1e4c5ef0")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 50.8 173.99 0)
 		(mirror x)
@@ -13330,7 +14302,7 @@
 		(dnp no)
 		(uuid "bc741725-c51c-4d1c-a9c3-41da8e4a8e36")
 		(property "Reference" "L14"
-			(at 50.8 166.37 0)
+			(at 50.8 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -13338,7 +14310,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 50.8 168.91 0)
+			(at 50.8 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -13460,73 +14432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 121.92 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf4cfbcc-79ac-4605-bad5-85e15a21e1b5")
-		(property "Reference" "#PWR030"
-			(at 118.11 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 125.73 193.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 121.92 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d2e69a9-6d78-4415-abd8-eee3389244e6")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 118.11 106.68 0)
 		(unit 1)
@@ -13605,7 +14510,7 @@
 		(dnp no)
 		(uuid "c6d33cb5-a0a1-4a60-9a36-4d67c8255e3f")
 		(property "Reference" "L18"
-			(at 137.16 166.37 0)
+			(at 137.16 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -13613,7 +14518,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 137.16 168.91 0)
+			(at 137.16 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -13736,6 +14641,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 143.51 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c95c52ec-0e5b-460f-a9f4-09e58270ddd4")
+		(property "Reference" "#PWR068"
+			(at 149.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314dfd76-5895-44d4-be66-283ab8a71ed3")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 124.46 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13795,140 +14767,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb3fbbbb-4ba9-461c-b07f-43b50d27f81c")
-		(property "Reference" "#PWR047"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f57a6487-05ef-4e69-b6fc-78fc6eed4adb")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 35.56 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cba32497-54c7-4b01-887c-361e863185bc")
-		(property "Reference" "#PWR042"
-			(at 31.75 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 35.56 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac82dcd3-fe68-4fed-94cb-16cfccc9fb95")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14072,7 +14910,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 101.6 0)
+		(at 168.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14081,7 +14919,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce87dd3d-1c50-44d2-8d03-322b90174f94")
 		(property "Reference" "#PWR027"
-			(at 172.72 107.95 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14928,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 106.68 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14098,7 +14936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 101.6 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 101.6 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 101.6 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,6 +14969,71 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 66.04 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cee7a2a4-a854-49a1-bcea-561ea5337cbc")
+		(property "Reference" "#PWR046"
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 64.008 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce8df142-5cce-4404-89ae-612e47065405")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14213,7 +15116,7 @@
 		(dnp no)
 		(uuid "d0c37dfc-9690-4537-b1b0-ac20335efa05")
 		(property "Reference" "L1"
-			(at 29.21 133.35 0)
+			(at 29.21 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -14221,7 +15124,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 29.21 135.89 0)
+			(at 29.21 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -14287,7 +15190,7 @@
 		(dnp no)
 		(uuid "d0fa5340-ec14-4182-bee7-7011d0a5f933")
 		(property "Reference" "L7"
-			(at 29.21 149.86 0)
+			(at 29.21 157.48 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -14295,7 +15198,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 29.21 152.4 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -14351,32 +15254,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 15.24 143.51 0)
+		(lib_id "power:VBUS")
+		(at 44.45 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d1700a57-a8e3-4f02-8cff-3501420f728d")
-		(property "Reference" "J1"
-			(at 13.716 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 19.812 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cornia-footprints:1Pin"
-			(at 15.24 143.51 0)
+		(uuid "d3bfb3c8-0756-4eec-9e1b-5b160d75ebbf")
+		(property "Reference" "#PWR042"
+			(at 48.26 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,8 +15271,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 15.24 143.51 0)
+		(property "Value" "VBUS"
+			(at 42.418 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,8 +15288,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 15.24 143.51 0)
+		(property "Datasheet" ""
+			(at 44.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 44.45 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,12 +15307,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbb23d6a-19bf-450f-92a3-978f002a35bd")
+			(uuid "210fef07-68eb-4270-b122-730965813e3c")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "J1")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14619,16 +15523,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 187.96 270)
+		(at 35.56 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d6b4680e-939c-436d-af72-6d10e579b8a6")
-		(property "Reference" "#PWR062"
-			(at 101.6 187.96 0)
+		(uuid "d550d840-abe7-4fba-969f-8464b2d4650c")
+		(property "Reference" "#PWR053"
+			(at 41.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14637,7 +15541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 187.9599 90)
+			(at 39.37 138.4301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,7 +15550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 187.96 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14655,7 +15559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 187.96 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14664,7 +15568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 187.96 0)
+			(at 35.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,12 +15577,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "7823f380-92d7-4b59-8c82-0e76946bc8df")
+			(uuid "31c0c088-c775-4319-90c5-08e1843576e3")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR062")
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 198.12 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d576e6e8-0007-44e1-bc87-cb0a7b3e3188")
+		(property "Reference" "#PWR082"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VI2C"
+			(at 198.374 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dca5daf-addb-4970-b11a-0f9abfb1f779")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -14695,7 +15665,7 @@
 		(dnp no)
 		(uuid "d749b3a0-c43a-4654-8678-1574acbd96b3")
 		(property "Reference" "L2"
-			(at 50.8 133.35 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -14703,7 +15673,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 50.8 135.89 0)
+			(at 50.8 139.7 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -14753,140 +15723,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d83a55b1-aea9-4c93-b7be-3295865ef9ca")
-		(property "Reference" "#PWR037"
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfbbc5b2-1386-415c-84a4-097ee2329c7b")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d89b1675-a17f-4f2d-b265-1360a60ba818")
-		(property "Reference" "#PWR049"
-			(at 59.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "335e2ae6-dfa5-400c-8e3c-f000c6ee578b")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15024,17 +15860,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 78.74 176.53 270)
+		(lib_id "power:GND")
+		(at 166.37 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da7d1e0f-3d4d-41c5-a48a-d01090e686fc")
-		(property "Reference" "#PWR036"
-			(at 74.93 176.53 0)
+		(uuid "dc59d19d-046b-41ec-b69a-f84a2216da16")
+		(property "Reference" "#PWR030"
+			(at 172.72 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15042,17 +15878,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 82.55 176.5299 90)
+		(property "Value" "GND"
+			(at 170.18 187.9601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 176.53 0)
+			(at 166.37 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +15897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 176.53 0)
+			(at 166.37 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15069,8 +15905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 78.74 176.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,12 +15915,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "46855448-7f0b-43e3-96dd-d4bdcd5eb38a")
+			(uuid "a6b46c4b-d0ae-4705-ac2c-1050dbc34d5d")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR036")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 130.81 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcdbc30c-4026-4043-8872-b38c55f84faa")
+		(property "Reference" "#PWR034"
+			(at 134.62 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 128.778 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f47f96-53e8-47c9-a412-b394a17920fa")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15161,6 +16062,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dead7c77-36a4-4894-82dd-8a67d95ae929")
+		(property "Reference" "#PWR041"
+			(at 41.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 171.4501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72e23657-9408-4ddb-8938-064afd874c5b")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 93.98 173.99 0)
 		(mirror x)
@@ -15171,7 +16139,7 @@
 		(dnp no)
 		(uuid "dece9402-32c3-47fc-8740-2d4aa073d6d5")
 		(property "Reference" "L16"
-			(at 93.98 166.37 0)
+			(at 93.98 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15179,7 +16147,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 93.98 168.91 0)
+			(at 93.98 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15229,73 +16197,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df09441d-9d6e-4450-afb7-813c2e9f0d49")
-		(property "Reference" "#PWR057"
-			(at 102.87 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "828f1dad-26b5-4354-a3f1-c4116207d1be")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15361,6 +16262,73 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 190.5 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d6f536-01d8-4bdd-bfce-2d1265fc4440")
+		(property "Reference" "#PWR079"
+			(at 194.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 186.69 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e800d1f4-ba2c-4464-baa5-cd982d7b22c2")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15435,6 +16403,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b19dfb-9ee1-446b-86db-66b8ba7be57a")
+		(property "Reference" "#PWR051"
+			(at 128.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e89f146c-bd65-4c0a-9164-98892a5faea0")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cornia:SK6812MINI")
 		(at 29.21 173.99 0)
 		(mirror x)
@@ -15445,7 +16480,7 @@
 		(dnp no)
 		(uuid "e9481996-500b-4db3-84cf-0bf0218adf46")
 		(property "Reference" "L13"
-			(at 29.21 166.37 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15453,7 +16488,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 29.21 168.91 0)
+			(at 29.21 172.72 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15509,17 +16544,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 171.45 270)
+		(lib_id "power:VBUS")
+		(at 22.86 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebec8bd6-33ab-4867-aad5-43389b229cc3")
-		(property "Reference" "#PWR041"
-			(at 38.1 171.45 0)
+		(uuid "eabcc7c4-728c-4b0b-b1bf-e547e25befbf")
+		(property "Reference" "#PWR064"
+			(at 26.67 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,17 +16561,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 40.64 171.4499 90)
+		(property "Value" "VBUS"
+			(at 20.828 162.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 171.45 0)
+			(at 22.86 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,7 +16579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 171.45 0)
+			(at 22.86 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,8 +16587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 171.45 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 22.86 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,12 +16597,207 @@
 			)
 		)
 		(pin "1"
-			(uuid "19baa047-686e-424a-88a0-c2ce503661ce")
+			(uuid "60b23f29-46ed-4f68-8d53-92c686a37f23")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR041")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 22.86 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb334a7f-273c-411e-aac6-6aaaad022ca4")
+		(property "Reference" "#PWR066"
+			(at 26.67 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 20.828 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "384c1fe6-c8b4-4da2-81f2-0afbf6bd7fe9")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 44.45 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9ddb80-efe1-4401-906d-0f3e2c614e1a")
+		(property "Reference" "#PWR044"
+			(at 48.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 42.418 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f57804-8a1e-401c-a044-804ed3fa6f33")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 109.22 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec2b7d7e-4e97-4d9b-bbea-9f7392efdcc8")
+		(property "Reference" "#PWR050"
+			(at 113.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 107.188 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759799c8-c65b-445c-aef9-de77189ecd2f")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15593,7 +16821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VI2C"
 			(at 137.16 37.084 0)
 			(effects
 				(font
@@ -15712,16 +16940,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 35.56 176.53 270)
+		(at 270.51 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef6bc398-b15b-47b4-9e85-ccc959d122c1")
-		(property "Reference" "#PWR040"
-			(at 31.75 176.53 0)
+		(uuid "ed8b6239-194a-4a62-964a-69adb7389641")
+		(property "Reference" "#PWR080"
+			(at 266.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15729,8 +16956,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 39.37 176.5299 90)
+		(property "Value" "VCC"
+			(at 274.32 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15739,7 +16966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 176.53 0)
+			(at 270.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +16975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 176.53 0)
+			(at 270.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +16984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 35.56 176.53 0)
+			(at 270.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,146 +16993,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0dff20f-0c22-4cbe-91a1-be8b0ca99fab")
+			(uuid "1e6c9919-3917-48d3-8dfc-967b12078455")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef7b559c-be1b-4a96-9034-1c17416073c2")
-		(property "Reference" "#PWR039"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a35a0339-6ebc-441f-96c3-8f458e2ff31a")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 100.33 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efcd4224-fba0-47b6-bf32-150022dfcebd")
-		(property "Reference" "#PWR034"
-			(at 96.52 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 104.14 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 100.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10e6417c-3698-468d-addd-11d3be3b2a71")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR034")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -15980,17 +17073,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 205.74 68.58 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1dada44-2a48-4e5f-b81b-65126404e737")
+		(property "Reference" "SB13"
+			(at 212.09 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 203.2 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cornia-footprints:SolderJumper-3_I2C"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccb58cdd-e2a1-4716-a58b-e1e86ed0b1cb")
+		)
+		(pin "2"
+			(uuid "87ee66d1-2e51-401e-9c78-aa2c57f214f5")
+		)
+		(pin "1"
+			(uuid "1ee2aac9-9d32-4138-a3ee-3b7a2a15c522")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "SB13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 57.15 176.53 270)
+		(at 66.04 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2004098-5cce-4beb-a90b-41e8e85879e3")
-		(property "Reference" "#PWR038"
-			(at 53.34 176.53 0)
+		(uuid "f241c25f-60e1-48f3-bab1-6291b3251545")
+		(property "Reference" "#PWR040"
+			(at 69.85 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,16 +17164,15 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 60.96 176.5299 90)
+			(at 64.008 178.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 176.53 0)
+			(at 66.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +17181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 176.53 0)
+			(at 66.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +17190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 176.53 0)
+			(at 66.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,12 +17199,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b05f5ef2-bca9-469d-9522-d6a14b367dfa")
+			(uuid "fe4dd3eb-ce4b-49b6-b6da-aeaa9efdfcad")
 		)
 		(instances
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16057,7 +17221,7 @@
 		(dnp no)
 		(uuid "f33f19a2-f257-4b5b-ba55-f497270a5bda")
 		(property "Reference" "L21"
-			(at 158.75 182.88 0)
+			(at 158.75 190.5 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -16065,7 +17229,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 158.75 185.42 0)
+			(at 158.75 189.23 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -16115,73 +17279,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "L21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 144.78 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f47ce095-d110-4f22-9455-fa27246ab3c7")
-		(property "Reference" "#PWR065"
-			(at 140.97 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 148.59 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "538d022f-e415-46cb-91da-2b7b1df51256")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -16310,6 +17407,73 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa287d16-13e3-4e68-ad41-1a1f34b83959")
+		(property "Reference" "#PWR069"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 138.4301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12bbc3b7-0d72-4f89-aade-524101feeae1")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16451,6 +17615,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc28f03c-7ebd-4d06-ad85-5fcb27250b87")
+		(property "Reference" "#PWR049"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dce46ef-383b-439e-a332-e7de4c0d85af")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 246.38 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16534,12 +17765,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 231.14 29.21 0)
+		(property "Value" "VI2C"
+			(at 233.68 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16576,73 +17808,6 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe9834ae-ee12-41f4-9614-e7828d5028ee")
-		(property "Reference" "#PWR061"
-			(at 124.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f2aef8-165d-4e89-bf8d-1312392335de")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
