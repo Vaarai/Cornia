@@ -1,0 +1,5 @@
+(version 1)
+(rule switch-npth
+    (severity ignore)
+    (constraint hole_to_hole)
+    (condition "AB.Pad_Type == 'NPTH, mechanical'"))
