@@ -1,0 +1,16 @@
+{
+    "manufacturer": "Vaarai",
+    "maintainer": "Vaarai",
+    "url": "https://github.com/Vaarai/Cornia",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0xFEED"
+    },
+    "build": {
+        "lto": true
+    },
+    "split": {
+        "enabled": true
+    }
+}
