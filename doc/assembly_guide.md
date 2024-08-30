@@ -120,9 +120,9 @@ TRRS Connector need to be placed on face noted `A` on the left hand PCB and on f
 
 ### Microcontroller (RP2040)
 
-On the left hand PCB, microcontroller board need to be placed on face noted `A` and microcontroller facing down (not visible)
+On the left hand PCB, microcontroller board need to be placed on face noted `A` and microcontroller facing up (visible)
 
-On the right hand PCB, microcontroller board need to be placed on face noted `B` and microcontroller facing up (visible)
+On the right hand PCB, microcontroller board need to be placed on face noted `B` and microcontroller facing down (not visible)
 
 Two option are allowed:
 - The microcontroller board can be soldered directly to the keyboard PCB through some pin headers
