@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "Cornia",
+    "manufacturer": "vaarai",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
+    },
+    "build": {
+        "lto": true
+    },
+    "diode_direction": "COL2ROW",
+    "split": {
+        "enabled": true
+    },
+    "processor": "atmega32u4",
+    "community_layouts": [ "split_3x6_3" ]
+}
+  
