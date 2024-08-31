@@ -16,7 +16,10 @@
 
 #pragma once
 
+#include QMK_KEYBOARD_H
+
 /* Custom Keycodes (CK_xxx) */
+ 
 #define CK_LPAR LSFT(KC_9)
 #define CK_RPAR LSFT(KC_0)
 #define CK_LCBR LSFT(KC_LBRC)
@@ -25,3 +28,6 @@
 #define CK_SSHT LSG(KC_S)
 #define CK_UNSC LSFT(KC_MINS)
 
+typedef enum {
+    CK_RKJMP = SAFE_RANGE /* Warframe rocket/bullet jump */
+} cornia_custom_keycodes_t;

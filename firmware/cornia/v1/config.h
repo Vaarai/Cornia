@@ -16,10 +16,10 @@
 
 #pragma once
 
-#ifdef OLED_ENABLE
-#   define SPLIT_LAYER_STATE_ENABLE
-#   define SPLIT_LED_STATE_ENABLE
-#   define SPLIT_MODS_ENABLE
-#   define SPLIT_OLED_ENABLE
-#   define OLED_TIMEOUT 60000
-#endif
+/* Select hand configuration */
+#define MASTER_LEFT
+// #define MASTER_RIGHT
+// #define EE_HANDS
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
