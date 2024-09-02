@@ -256,7 +256,7 @@
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
 		(uuid "bfecb2be-b67d-45ce-b548-79ae5e1a908f")
