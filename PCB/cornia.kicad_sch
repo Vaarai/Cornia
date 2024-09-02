@@ -6158,18 +6158,7 @@
 		)
 		(uuid "2e13bebc-e26e-4ddf-a5a1-9260f9df9332")
 	)
-	(label "RX_LED"
-		(at 223.52 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32dcd9b7-27b7-4775-b549-dc40aeba418d")
-	)
-	(label "TX"
+	(label "RX"
 		(at 228.6 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6179,6 +6168,17 @@
 			(justify right bottom)
 		)
 		(uuid "331b621e-0337-4db5-86a7-f522d893b933")
+	)
+	(label "RX"
+		(at 223.52 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ddfca7c-2c50-4ba2-91a3-91c252ec83ce")
 	)
 	(label "In_SW18"
 		(at 111.76 106.68 90)
@@ -6333,17 +6333,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ce530c5-e0bf-4f6a-8f11-82308776daf9")
-	)
-	(label "TX"
-		(at 223.52 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ec6b429-2fb3-44be-b63c-9d0129ef4457")
 	)
 	(label "SCL"
 		(at 142.24 34.29 180)
@@ -6565,7 +6554,7 @@
 		)
 		(uuid "c7cec121-f712-40e6-a58b-3cfe7aec3134")
 	)
-	(label "RX_LED"
+	(label "TX_LED"
 		(at 228.6 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6696,6 +6685,17 @@
 			(justify right bottom)
 		)
 		(uuid "f7c4d179-7f96-4d06-9ec4-53669a3146a7")
+	)
+	(label "TX_LED"
+		(at 223.52 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8592b8c-b5b5-49be-9383-4b1d867fb092")
 	)
 	(label "In_SW21"
 		(at 266.7 135.89 0)
