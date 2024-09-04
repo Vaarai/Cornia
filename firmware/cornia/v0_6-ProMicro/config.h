@@ -20,5 +20,3 @@
 // #define MASTER_LEFT
 #define MASTER_RIGHT
 // #define EE_HANDS
-
-#define RGBLIGHT_SLEEP
