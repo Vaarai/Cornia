@@ -6022,6 +6022,26 @@
 	)
 	(text "Left\n(B.Cu)"
 		(exclude_from_sim no)
+		(at 157.48 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29ed7171-409a-4a1d-be12-01688a4a5e6f")
+	)
+	(text "Right\n(F.Cu)"
+		(exclude_from_sim no)
+		(at 157.48 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4af7bb18-02d4-486c-a8a6-a556d9e3398d")
+	)
+	(text "Left\n(B.Cu)"
+		(exclude_from_sim no)
 		(at 186.69 95.25 0)
 		(effects
 			(font
