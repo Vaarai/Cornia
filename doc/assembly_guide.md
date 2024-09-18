@@ -79,9 +79,13 @@ Solder bridges `SB4` to `SB11` allows the OLED screen to be solder on both sides
 - For left hand PCB please solder `SB4` to `SB7`
 - For right hand PCB please solder `SB8` to `SB11`
 
+![I²C Solder bridges config](../images/PCB/I2C_SBx_config.png)
+
 Solder bridges `SB12` and `SB13` allows OLED display voltage settings (I²C bus):
 - On left hand, use `SB13`
 - On right hand, use `SB12`
+
+![I²C Voltage config](../images/PCB/I2C_voltage_config.png)
 
 The voltage to select on the I²C depends on display used, standard one is 5V but please take a look at `Vcc` value in the display datasheet.
 
@@ -95,28 +99,48 @@ To configure a voltage on I²C please solder together 2 pads on the 3 availables
 
 `R1` and `R2` on the right hand PCB and `R3` and `R4` on the left hand PCB are optional I²C pull-up. These pull-up should not be necessary as majority of OLED deplays embed their own.
 
+![I²C Pull-up](../images/PCB/I2C_pullup.png)
+
 `R5` and `R6` are used to configure the [QMK handedness](https://docs.qmk.fm/features/split_keyboard#handedness-by-pin), please solder:
 - `R5` on the left hand PCB
 - `R6` on the right hand PCB
 
+![QMK handedness resistor](../images/PCB/handedness_resistor.png)
+
 ### Hotswap socket
 
 Hotswap socket shall be soldered on face noted `A` for the left hand PCB and on face noted `B` for the right hand PCB
+
+ Top (Left hand, face A) | Bottom (Left hand, face B)
+:----------------------:|:-------------------------:
+![Hotswap socket top view](../images/PCB/hotswap_top.png) | ![Hotswap socket bottom view](../images/PCB/hotswap_bot.png)
 
 ### RGB leds
 
 RGB leds shall be soldered on face noted `B` for the left hand PCB and on face noted `A` for the right hand PCB.
 A mark on the led should be visible and aligned with the mark on the PCB during the placement.
 
+ Top (Left hand, face A) | Bottom (Left hand, face B)
+:----------------------:|:-------------------------:
+![RGB leds top view](../images/PCB/sk6812minie_top.png) | ![RGB leds bottom view](../images/PCB/sk6812minie_bot.png)
+
 ### Reset
 
 Reset button need to be soldered on `RST_L1` for left hand PCB and on `RST_R1` for right hand PCB.
+> **_NOTE:_**  On Cornia v1 RC3 the reset button marking is reversed (design mistake) so `RST_L1` for right hand and `RST_R1` for left hand, this is fixed in the v1.
+
+![Reset button](../images/PCB/reset_button.png)
+
 
 ## Throughole components
 
 ### TRRS
 
 TRRS Connector need to be placed on face noted `A` on the left hand PCB and on face noted `B` on the right hand PCB
+
+ Top (Left hand, face A) | Bottom (Left hand, face B)
+:----------------------:|:-------------------------:
+![TRRS Connector top view](../images/PCB/trrs_conn_top.png) | ![TRRS Connector bottom view](../images/PCB/trrs_conn_bot.png)
 
 ### Microcontroller (RP2040)
 
@@ -128,9 +152,13 @@ Two option are allowed:
 - The microcontroller board can be soldered directly to the keyboard PCB through some pin headers
 - The microcontroller board can be plugged to the keyboard PCB through some hotswap pins
 
+![RP2040 Hotswap headers view](../images/PCB/rp2040_hotswap_headers.png)
+
 ### OLED Display
 
 OLED Display need to be placed on face noted `A` on the left hand PCB and on face noted `B` on the right hand PCB
+
+![OLED Display headers view](../images/PCB/OLED_display_headers.png)
 
 # Test
 
