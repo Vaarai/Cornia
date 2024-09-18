@@ -7673,73 +7673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 191.77 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1738c9c7-76cc-4279-960e-af9d638a0726")
-		(property "Reference" "#PWR077"
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VI2C"
-			(at 194.31 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 191.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6809282d-06aa-4135-be76-4c2848e6ec63")
-		)
-		(instances
-			(project "cornia"
-				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cornia:Hole")
 		(at 59.69 31.75 0)
 		(unit 1)
@@ -8552,6 +8485,72 @@
 			(project "cornia"
 				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 191.77 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d5de288-c00d-414e-b686-d736ef499b2d")
+		(property "Reference" "#PWR084"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 191.7699 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789ce815-053a-4f67-9278-aecde4e3dd4e")
+		)
+		(instances
+			(project "cornia"
+				(path "/fba9d1ab-287c-4388-b412-675aea5ffe31"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
