@@ -9,7 +9,7 @@
     "features": {
         "extrakey": true,
         "nkro": true,
-        "oled": true
+        "rgblight": true
     },
     "split": {
         "soft_serial_pin": "GP1",
@@ -24,10 +24,10 @@
     },
     "matrix_pins": {
         "direct":[
-            ["GP2" , "GP29", "GP3",  "GP28", "GP4", "GP27"],
-            ["GP20", "GP7",  "GP22", "GP6",  "GP26", "GP5"],
-            ["GP13", "GP12", "GP14", "GP9",  "GP15", "GP8"],
-            ["GP21", "GP23", "GP16", null,   null,   null]
+            ["GP27", "GP4",  "GP28", "GP3",  "GP29", "GP2"],
+            ["GP5",  "GP26", "GP6",  "GP22", "GP7",  "GP20"],
+            ["GP8",  "GP15", "GP9",  "GP14", "GP12", "GP13"],
+            [ null,   null,   null,  "GP16", "GP23", "GP21"]
         ]
     },
     "community_layouts": [ "split_3x6_3" ],
@@ -85,6 +85,10 @@
     "ws2812": {
         "driver": "vendor",
         "pin": "GP0"
+    },
+    "rgblight": {
+        "led_count": 42,
+        "split_count": [21, 21]
     },
     "rgb_matrix": {
         "driver": "ws2812",

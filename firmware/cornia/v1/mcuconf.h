@@ -16,26 +16,10 @@
 
 #pragma once
 
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
+#include_next <mcuconf.h>
 
-/* I²C config */
-#define I2C_DRIVER I2CD1
-#define I2C1_SDA_PIN GP10
-#define I2C1_SCL_PIN GP11
+#undef RP_I2C_USE_I2C0
+#define RP_I2C_USE_I2C0 FALSE
 
-/* Split */
-#define SPLIT_ACTIVITY_ENABLE
-#define SPLIT_LAYER_STATE_ENABLE
-#define SPLIT_LED_STATE_ENABLE
-#define SPLIT_MODS_ENABLE
-
-/* OLED */
-#define OLED_TIMEOUT 60000
-
-/* Trackpad */
-#define SPLIT_POINTING_ENABLE 
-#define POINTING_DEVICE_RIGHT
-#define POINTING_DEVICE_ROTATION_90
-#define CIRQUE_PINNACLE_DIAMETER_MM 40
-#define CIRQUE_PINNACLE_TAP_ENABLE
+#undef RP_I2C_USE_I2C1
+#define RP_I2C_USE_I2C1 TRUE

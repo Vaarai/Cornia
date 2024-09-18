@@ -14,3 +14,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 DEFAULT_FOLDER = cornia/v1
+
+RGBLIGHT_SUPPORTED = yes
+RGB_MATRIX_SUPPORTED = yes
