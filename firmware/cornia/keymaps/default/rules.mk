@@ -12,3 +12,8 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+MOUSEKEY_ENABLE = yes
+
+SRC += oled_routines.c
+SRC += qmk_callback.c

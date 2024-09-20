@@ -15,3 +15,30 @@
  */
 
 #pragma once
+
+#include QMK_KEYBOARD_H
+
+/* Layers definitions */
+enum layers {
+  _ALPHA,
+  _NAV,
+  _NUM,
+  _ADJUST,
+  _G0,
+  _G1
+};
+
+/* Custom Keycodes (CK_xxx) */
+#define CK_LPAR LSFT(KC_9)
+#define CK_RPAR LSFT(KC_0)
+#define CK_LCBR LSFT(KC_LBRC)
+#define CK_RCBR LSFT(KC_RBRC)
+#define CK_QMRK LSFT(KC_SLSH)
+#define CK_SSHT LSG(KC_S)
+#define CK_UNSC LSFT(KC_MINS)
+
+typedef enum {
+    CK_RKJMP = SAFE_RANGE, /* Warframe rocket/bullet jump */
+    CK_DPII,
+    CK_DPID,
+} cornia_custom_keycodes_t;

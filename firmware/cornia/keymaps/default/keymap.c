@@ -15,16 +15,8 @@
  */
 
 #include QMK_KEYBOARD_H
-#include "./custom_keycodes.h"
 
-enum layers {
-  _ALPHA,
-  _NAV,
-  _NUM,
-  _ADJUST,
-  _G0,
-  _G1
-};
+#include "./keymap.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_ALPHA] = LAYOUT_split_3x6_3(
@@ -36,16 +28,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LCTL,    KC_X,    KC_K,    KC_C,    KC_W,    KC_Z,                         KC_B,    KC_M, KC_QUOT, KC_SCLN,  KC_DOT, KC_RCTL,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                         KC_LSFT, MO(_NAV), KC_SPC,   KC_ENT, MO(_NUM), KC_RSFT
-
+                                      //`--------------------------'  `--------------------------'
   ),
 
     [_NAV] = LAYOUT_split_3x6_3(
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      _______, XXXXXXX, XXXXXXX, XXXXXXX, C(KC_A), XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_DEL,
+      _______, XXXXXXX, XXXXXXX, XXXXXXX, C(KC_A), XXXXXXX,                      KC_BTN1, KC_BTN2, XXXXXXX, XXXXXXX, XXXXXXX,  KC_DEL,
   //|--------+--------+ GUI V  +--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      _______, C(KC_X), G(KC_V), C(KC_V), C(KC_C), C(KC_Z),                      XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, _______, 
+      _______, C(KC_X), G(KC_V), C(KC_V), C(KC_C), C(KC_Z),                      KC_WH_U, KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, _______, 
   //|ALT LEFT+--------+ ALT SFT+scrnshot+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-   A(KC_LEFT),C(KC_S),S(KC_LALT), CK_SSHT,C(KC_F), C(KC_Y),                      XXXXXXX, KC_HOME, KC_PGDN, KC_PGUP,  KC_END, _______,
+   A(KC_LEFT),C(KC_S),S(KC_LALT), CK_SSHT,C(KC_F), C(KC_Y),                      KC_WH_D, KC_HOME, KC_PGDN, KC_PGUP,  KC_END, _______,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, _______, _______,  _______,MO(_ADJUST),_______
                                       //`--------------------------'  `--------------------------'
@@ -67,9 +59,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       QK_BOOT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX,                        KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12,
-  //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX,                      TO(_G0), TO(_G1), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX, RGB_TOG, RGB_HUI, RGB_VAI, CK_DPII, XXXXXXX,                        KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12,
+  //|--------+--------+--------+--------+--------|--------|                    |--------+--------+--------+--------+--------+--------|
+      XXXXXXX, RGB_MOD, RGB_HUD, RGB_VAD, CK_DPID, XXXXXXX,                      TO(_G0), TO(_G1), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______, _______, _______,    _______, _______, _______
                                       //`--------------------------'  `--------------------------'
@@ -101,87 +93,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       //`--------------------------'  `--------------------------'
   ),
 };
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-    case CK_RKJMP:
-      if (record->event.pressed) {
-        SEND_STRING(SS_DOWN(X_C));
-      } else {
-        SEND_STRING(SS_DOWN(X_SPC) SS_DELAY(50) SS_UP(X_C) SS_DELAY(50) SS_UP(X_SPC));
-      }
-      return false; // Skip all further processing of this key
-  }
-  return true;
-}
-
-/* ================= OLED SECTION */
-
-void render_logo(void) {
-    static const char PROGMEM logo[] = {
-        // 'cornia', 32x32px
-        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xe0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 
-        0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xe0, 0x00, 
-        0x00, 0x00, 0x00, 0x00, 0x00, 0xe0, 0xf8, 0xff, 0xff, 0xff, 0x3f, 0xff, 0xff, 0xff, 0xfd, 0xe1, 
-        0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 
-        0x00, 0x00, 0xc0, 0xf8, 0xff, 0xff, 0xff, 0x3f, 0x07, 0x00, 0x00, 0x00, 0x07, 0x3f, 0xff, 0xff, 
-        0xff, 0xf8, 0xc0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
-        0x00, 0x1e, 0x1f, 0x1f, 0x1f, 0x07, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x07, 
-        0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x0e, 0x00
-    };
-    oled_write_raw_P(logo, sizeof(logo));
-}
-
-void render_layer_status(void) {
-
-    switch (get_highest_layer(layer_state)) {
-        case _ALPHA:
-            oled_write_ln("ALPHA", 0);
-            break;
-        case _NAV:
-            oled_write_ln("NAV", 0);
-            break;
-        case _NUM:
-            oled_write_ln("NUM", 0);
-            break;
-        case _ADJUST:
-            oled_write_ln("ADJUS", 0);
-            break;
-        case _G0:
-            oled_write_ln("GAME0", 0);
-            break;
-        case _G1:
-            oled_write_ln("GAME1", 0);
-            break;
-    }
-}
-
-void oled_render_boot(bool bootloader) {
-    oled_clear();
-    oled_set_cursor(0, 2);
-    if (bootloader) {
-        oled_write_P(PSTR("FLASH"), false);
-    } else {
-        oled_write_P(PSTR("RESET"), false);
-    }
-    oled_render_dirty(true);
-}
-
-oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-    return OLED_ROTATION_270;
-}
-
-bool oled_task_user(void) {
-    oled_set_cursor(0, 0);
-    render_logo();
-    oled_set_cursor(0, 7);
-    render_layer_status();
-    return false;
-}
-
-bool shutdown_user(bool jump_to_bootloader) {
-    oled_render_boot(jump_to_bootloader);
-    return false;
-}
-
-/* ================= RGB SECTION */
