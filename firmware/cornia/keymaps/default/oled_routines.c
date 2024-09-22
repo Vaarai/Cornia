@@ -17,6 +17,7 @@
 #include QMK_KEYBOARD_H
 
 #include "./keymap.h"
+#include "./oled_routines.h"
 
 void render_logo(void) {
     static const char PROGMEM logo[] = OLED_LOGO_CORNIA;

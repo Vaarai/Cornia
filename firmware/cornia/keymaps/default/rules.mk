@@ -16,4 +16,8 @@
 MOUSEKEY_ENABLE = yes
 
 SRC += oled_routines.c
-SRC += qmk_callback.c
+SRC += callback_oled.c
+SRC += callback_pointing_device.c
+SRC += callback_record.c
+SRC += callback_system.c
+

@@ -14,20 +14,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#pragma once
-
 #include QMK_KEYBOARD_H
 
-/* Custom Keycodes (CK_xxx) */
- 
-#define CK_LPAR LSFT(KC_9)
-#define CK_RPAR LSFT(KC_0)
-#define CK_LCBR LSFT(KC_LBRC)
-#define CK_RCBR LSFT(KC_RBRC)
-#define CK_QMRK LSFT(KC_SLSH)
-#define CK_SSHT LSG(KC_S)
-#define CK_UNSC LSFT(KC_MINS)
+#include "./keymap.h"
+#include "./oled_routines.h"
 
-typedef enum {
-    CK_RKJMP = SAFE_RANGE /* Warframe rocket/bullet jump */
-} cornia_custom_keycodes_t;
+bool shutdown_user(bool jump_to_bootloader) {
+    render_boot(jump_to_bootloader);
+    return false;
+}

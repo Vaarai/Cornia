@@ -14,38 +14,19 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#pragma once
-
 #include QMK_KEYBOARD_H
 
-/* Trackpad srolling enablement flag */
-extern bool set_scrolling;
-/* Trackpad srolling speed adjustment */
-#define SCROLL_DIVISOR_H 8.0
-#define SCROLL_DIVISOR_V 8.0
+#include "./keymap.h"
+#include "./oled_routines.h"
 
-/* Layers definitions */
-enum layers {
-  _ALPHA,
-  _NAV,
-  _NUM,
-  _ADJUST,
-  _G0,
-  _G1
-};
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_270;
+}
 
-/* Custom Keycodes (CK_xxx) */
-#define CK_LPAR LSFT(KC_9)
-#define CK_RPAR LSFT(KC_0)
-#define CK_LCBR LSFT(KC_LBRC)
-#define CK_RCBR LSFT(KC_RBRC)
-#define CK_QMRK LSFT(KC_SLSH)
-#define CK_SSHT LSG(KC_S)
-#define CK_UNSC LSFT(KC_MINS)
-
-typedef enum {
-    CK_RKJMP = SAFE_RANGE, /* Warframe rocket/bullet jump */
-    CK_DPII,
-    CK_DPID,
-    CK_SCRL,
-} cornia_custom_keycodes_t;
+bool oled_task_user(void) {
+    oled_set_cursor(0, 0);
+    render_logo();
+    oled_set_cursor(0, 7);
+    render_layer_status();
+    return false;
+}

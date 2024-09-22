@@ -17,12 +17,10 @@
 #include QMK_KEYBOARD_H
 
 #include "./keymap.h"
-#include "./oled_routines.h"
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        /* Warframe rocket jump */
-        case CK_RKJMP:
+        case CK_RKJMP: /* Warframe rocket jump */
             if (record->event.pressed) {
                 SEND_STRING(SS_DOWN(X_C));
             } else {
@@ -39,23 +37,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 pointing_device_set_cpi(pointing_device_get_cpi()-100);
             }
             return false;
+        case CK_SCRL: /* Toggle set_scrolling when CK_SCRL key is pressed or released */
+            set_scrolling = record->event.pressed;
+            return false;
     }
     return true;
-}
-
-oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-    return OLED_ROTATION_270;
-}
-
-bool oled_task_user(void) {
-    oled_set_cursor(0, 0);
-    render_logo();
-    oled_set_cursor(0, 7);
-    render_layer_status();
-    return false;
-}
-
-bool shutdown_user(bool jump_to_bootloader) {
-    render_boot(jump_to_bootloader);
-    return false;
 }
