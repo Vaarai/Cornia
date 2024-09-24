@@ -19,7 +19,7 @@
 #include "./keymap.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [_ALPHA] = LAYOUT_split_3x6_3(
+    [_ALPHA] = LAYOUT_split_3x6_3( /* Fire (Oxey) : https://bit.ly/layout-doc-v2 */
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
        KC_ESC,    KC_P,    KC_L,    KC_D,    KC_G,    KC_V,                         KC_Q,    KC_F,    KC_O,    KC_U, KC_COMM, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
