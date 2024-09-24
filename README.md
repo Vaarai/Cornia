@@ -73,7 +73,9 @@ Schematic and PCB views are available in `pdf/`:
 
 To manufacture the Cornia PCB please follow the [PCB manufacturing guide](./doc/pcb_ordering.md)
 
-In case you modified the PCB you can use the export bash script to ease the process, it is documented in [Manufacturing files export guide](./doc/manufacturing_files_export.md)
+In case you want to modify the PCB please take a look at the following:
+- KiCad [project description](./PCB/README.md)
+- Export bash script to ease the process, it is documented in [Manufacturing files export guide](./doc/manufacturing_files_export.md)
 
 ### Keyboard assembling
 
@@ -85,19 +87,17 @@ To solder and assemble the Cornia keyboard please follow the [Cornia assembly gu
 
 # Software
 
-Software will be available soon (based on QMK).
+Cornia keyboard firmware is based on QMK.
+
+Documentation is available [here](./firmware/cornia/readme.md)
 
 ### Keymap
 
 [Fire layout for Cornia keyboard](http://www.keyboard-layout-editor.com/#/gists/a40345c92e1f3f326426ef890ebf4d1c)
 
+Based on [Fire (Oxey)](https://bit.ly/layout-doc-v2) layout
+
 # Photos
 
 ![3D Top view](./images/3D_TOP.png)
 ![3D Bottom view](./images/3D_BOT.png)
- 
-# TODO
-  * [Image converter](https://github.com/MakotoKurauchi/helix/tree/master/FontConverter)
-  * [QMK](https://github.com/qmk/qmk_firmware/blob/master/docs/platformdev_rp2040.md)
-  * [Troubleshooting guide](https://github.com/jpconstantineau/ErgoTravel/blob/master/Troubleshooting_steps.md)
-  * [Inspirations](https://github.com/diimdeep/awesome-split-keyboards?tab=readme-ov-file)
