@@ -16,4 +16,9 @@
 
 #pragma once
 
-#define TAPPING_TERM 200
+#include QMK_KEYBOARD_H
+
+/* Tap dances definitions */
+enum tap_dances {
+  TD_SFT_CAPSW
+};

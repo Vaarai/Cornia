@@ -17,6 +17,7 @@
 #include QMK_KEYBOARD_H
 
 #include "./keymap.h"
+#include "./tap_dances.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_ALPHA] = LAYOUT_split_3x6_3( /* Fire (Oxey) : https://bit.ly/layout-doc-v2 */
@@ -27,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,    KC_X,    KC_K,    KC_C,    KC_W,    KC_Z,                         KC_B,    KC_M, KC_QUOT, KC_SCLN,  KC_DOT, KC_RCTL,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                        KC_LSFT, MO(_NAV), KC_SPC,   KC_ENT, MO(_NUM), KC_RSFT
+                                 TD(TD_SFT_CAPSW), MO(_NAV), KC_SPC,   KC_ENT, MO(_NUM), TD(TD_SFT_CAPSW)
                                       //`--------------------------'  `--------------------------'
   ),
 
