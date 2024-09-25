@@ -91,11 +91,18 @@ Cornia keyboard firmware is based on QMK.
 
 Documentation is available [here](./firmware/cornia/readme.md)
 
+### Prepare QMK with Cornia code
+
+If Cornia keyboard in not yet integrated in [qmk_firmware](https://github.com/qmk/qmk_firmware) please setup your environment with : [Setting Up Your QMK Environment](https://docs.qmk.fm/newbs_getting_started)
+
+Then please copy [cornia firmware folder](./firmware/cornia/) in `qmk_firmware/keyboards/cornia`.
+
+You can start compiling/flashing your Cornia keyboard from here !
+
 ### Keymap
 
-[Fire layout for Cornia keyboard](http://www.keyboard-layout-editor.com/#/gists/a40345c92e1f3f326426ef890ebf4d1c)
-
-Based on [Fire (Oxey)](https://bit.ly/layout-doc-v2) layout
+- [Default QWERTY layout for Cornia keyboard](https://www.keyboard-layout-editor.com/#/gists/5af136790cefe4b35cdf02ca52c1fccc)
+- [Fire layout for Cornia keyboard](https://www.keyboard-layout-editor.com/#/gists/a40345c92e1f3f326426ef890ebf4d1c) (Based on [Fire (Oxey)](https://bit.ly/layout-doc-v2) layout)
 
 # Photos
 
