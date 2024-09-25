@@ -14,15 +14,3 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 SERIAL_DRIVER = vendor
-
-# OLED I²C configuration
-OLED_ENABLE = yes
-OLED_DRIVER = ssd1306
-OLED_TRANSPORT = i2c
-
-# Cirque Trackpad I²C configuration
-POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
-
-# Add I²C HAL dependencies
-OPT_DEFS += -DHAL_USE_I2C=TRUE

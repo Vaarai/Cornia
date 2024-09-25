@@ -18,6 +18,10 @@
 
 #include "./keymap.h"
 
+/* Trackpad srolling speed adjustment */
+#define SCROLL_DIVISOR_H 8.0
+#define SCROLL_DIVISOR_V 8.0
+
 bool set_scrolling = false;
 
 /* Variables to store accumulated scroll values */

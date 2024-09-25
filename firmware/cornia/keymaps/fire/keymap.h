@@ -20,9 +20,6 @@
 
 /* Trackpad srolling enablement flag */
 extern bool set_scrolling;
-/* Trackpad srolling speed adjustment */
-#define SCROLL_DIVISOR_H 8.0
-#define SCROLL_DIVISOR_V 8.0
 
 /* Layers definitions */
 enum layers {
