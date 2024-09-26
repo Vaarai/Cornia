@@ -4,6 +4,10 @@
 
 # Cornia keyboard
 
+<h1 align="center">
+ <img src="./images/Cornia_v1.jpg" />
+</h1>
+
 The Cornia keyboard is a split keyboard featuring : 
 * 3x6 column strongly staggered keys and 3 thumb keys
 * Hotswap sockets (Compatible with Kailh and Gateron)
