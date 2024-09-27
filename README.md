@@ -31,11 +31,10 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
     * [Keyboard assembling](#keyboard-assembling)
     * [Troubleshooting](#troubleshooting)
   * [Software](#software)
-    * [Prepare QMK with Cornia code](#prepare-qmk-with-cornia-code)
+    * [Cornia not yet integrated in official QMK ?](#cornia-not-yet-integrated-in-official-qmk)
     * [Keymap](#keymap)
   * [Case](#case)
   * [Photos](#photos)
-  * [ToDo](#todo)
 <!--te-->
 
 # Hardware
@@ -95,15 +94,9 @@ To solder and assemble the Cornia keyboard please follow the [Cornia assembly gu
 
 Cornia keyboard firmware is based on QMK.
 
-Documentation is available [here](./firmware/cornia/readme.md)
+### Cornia not yet integrated in official QMK ?
 
-### Prepare QMK with Cornia code
-
-If Cornia keyboard in not yet integrated in [qmk_firmware](https://github.com/qmk/qmk_firmware) please setup your environment with : [Setting Up Your QMK Environment](https://docs.qmk.fm/newbs_getting_started)
-
-Then please copy [cornia firmware folder](./firmware/cornia/) in `qmk_firmware/keyboards/cornia`.
-
-You can start compiling/flashing your Cornia keyboard from here !
+If Cornia keyboard not yet integrated in [qmk_firmware](https://github.com/qmk/qmk_firmware) you can go to [Vaarai QMK fork](https://github.com/Vaarai/qmk_firmware/tree/cornia/keyboards/cornia) on and follow the readme.
 
 ### Keymap
 
