@@ -24,6 +24,7 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 ### Table of contents
 
 <!--ts-->
+  * [Quick steps](#quick-steps)
   * [Hardware](#hardware)
     * [Bill of material](#bill-of-material)
     * [Compatible controllers](#compatible-controllers)
@@ -36,6 +37,13 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
   * [Case](#case)
   * [Photos](#photos)
 <!--te-->
+
+# Quick steps
+
+1. [Order the PCB](./doc/pcb_ordering.md)
+2. [Print the case](https://www.printables.com/model/958200-case-for-cornia-v1-including-a-trackpad-version-40)
+3. [Assemble/solder PCB](./doc/assembly_guide.md)
+4. [Flash Cornia QMK](https://github.com/Vaarai/qmk_firmware/tree/cornia/keyboards/cornia)
 
 # Hardware
 
@@ -55,9 +63,7 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
 | Keycaps | 42 | 1u size |
 | TRRS (4 poles) cable | 1 | |
 | USB cable | 1 | USB Micro or USB-C depending on the controller, avoid charge-only cables |
-| Case top | 2 | |
-| Case bottom | 2 | |
-| OLED Cover | 2 | |
+| Case | 2 | [Cornia v1 Printables](https://www.printables.com/model/958200-case-for-cornia-v1-including-a-trackpad-version-40) |
 
 ### Compatible controllers
 
