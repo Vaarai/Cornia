@@ -31,7 +31,9 @@ Because it was inspired from the [Corne](https://github.com/foostan/crkbd/tree/m
     * [Keyboard assembling](#keyboard-assembling)
     * [Troubleshooting](#troubleshooting)
   * [Software](#software)
+    * [Prepare QMK with Cornia code](#prepare-qmk-with-cornia-code)
     * [Keymap](#keymap)
+  * [Case](#case)
   * [Photos](#photos)
   * [ToDo](#todo)
 <!--te-->
@@ -107,6 +109,18 @@ You can start compiling/flashing your Cornia keyboard from here !
 
 - [Default QWERTY layout for Cornia keyboard](https://www.keyboard-layout-editor.com/#/gists/5af136790cefe4b35cdf02ca52c1fccc)
 - [Fire layout for Cornia keyboard](https://www.keyboard-layout-editor.com/#/gists/a40345c92e1f3f326426ef890ebf4d1c) (Based on [Fire (Oxey)](https://bit.ly/layout-doc-v2) layout)
+
+# Case
+
+Case for Cornia v1 is available on [Cornia v1 Printables](https://www.printables.com/model/958200-case-for-cornia-v1-including-a-trackpad-version-40) from user Rikiki, optionally including a trackpad version (40mm) available for both halves.
+
+Cornia keyboard is a project initiated by a post from `help-forum` on [QMK Discord](https://discord.gg/qmk).
+
+User Rikiki requested in this post if someone could alter [crkbd](https://github.com/foostan/crkbd) PCB to match his requirements.
+
+I (Vaarai) replied to this post and in 1 months we made 2 iterations of crkbd variant and it diverged from crkbd in a way that we started to make a new keyboard and 5 months later it lead to the Cornia.
+
+Rikiki made all the mechanical parts and I designed the PCB then developed a QMK implementation.
 
 # Photos
 
